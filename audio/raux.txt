@@ -696,7 +696,7 @@ https://stream.zeno.fm/6r0z29bxy1zuv
 https://securestreams7.autopo.st/?uri=http://streamnavs.net:8133/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/99.9-Magnum-radio-logo.jpg/240px-99.9-Magnum-radio-logo.jpg" group-title="PH Radio" radio="true",Magnum Radyo CDO
-https://securestreams7.autopo.st/?uri=http://212.84.160.187:21059/;stream.mp3
+https://securestreams7.autopo.st/?uri=http://95.154.228.112:28761/;stream.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/MemoRieS_FM_107.1_Baguio.jpg/150px-MemoRieS_FM_107.1_Baguio.jpg" group-title="PH Radio" radio="true",Memories FM Baguio
 https://server10.reliastream.com/proxy/primaxbr?mp=/stream
