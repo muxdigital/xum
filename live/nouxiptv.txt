@@ -31,7 +31,7 @@ https://richwel.serv00.net/twitcher.php?channel=y101fmcebu&quality=360p
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_2.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/_j4rrdA40olkcuVjfsbjT2e0iwtxYiknJJeRMJnMGrGJMy3GGd45MhdvjCZFmKLdRvMJ1SbQDqU=s176-c-k-c0x00ffffff-no-rj" group-title="News",SEA Today
-https://cdn10jtedge.indihometv.com/joss/133/seatodayweb/playlist.m3u8
+https://cdn10jtedge.indihometv.com/joss/133/seatodayweb/playlist.m3u8?enc=AI0Xt_YMKSiLcxyHXXvdIQ&exp=1711714485&encp=eyzyDre4JUZv_k_9ZI_p3w&expp=1711714485
 
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/_j4rrdA40olkcuVjfsbjT2e0iwtxYiknJJeRMJnMGrGJMy3GGd45MhdvjCZFmKLdRvMJ1SbQDqU=s176-c-k-c0x00ffffff-no-rj" group-title="News",SEA Today Live
 https://ytlive.phcnetwork.workers.dev/stream/seatodaylive/master.m3u8
