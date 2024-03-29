@@ -30,6 +30,12 @@ https://richwel.serv00.net/twitcher.php?channel=y101fmcebu&quality=360p
 #EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/cna-channel-news-asia9392.jpg" group-title="News",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_2.m3u8
 
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/_j4rrdA40olkcuVjfsbjT2e0iwtxYiknJJeRMJnMGrGJMy3GGd45MhdvjCZFmKLdRvMJ1SbQDqU=s176-c-k-c0x00ffffff-no-rj" group-title="News",SEA Today
+https://cdn10jtedge.indihometv.com/joss/133/seatodayweb/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/_j4rrdA40olkcuVjfsbjT2e0iwtxYiknJJeRMJnMGrGJMy3GGd45MhdvjCZFmKLdRvMJ1SbQDqU=s176-c-k-c0x00ffffff-no-rj" group-title="News",SEA Today Live
+https://ytlive.phcnetwork.workers.dev/stream/seatodaylive/master.m3u8
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/DZRH_News_Television_Logo_%282021%29.jpg/250px-DZRH_News_Television_Logo_%282021%29.jpg" group-title="News",DZRH TV
 https://ytlive.phcnetwork.workers.dev/stream/DZRHTV/master.m3u8
 
