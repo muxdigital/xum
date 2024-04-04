@@ -78,9 +78,6 @@ https://ytlive.phcnetwork.workers.dev/stream/onenewsph/master.m3u8
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/220px-OnePHCignal.svg.png" group-title="News",One PH (YT)
 https://ytlive.phcnetwork.workers.dev/stream/onephoncignal/master.m3u8
 
-#EXTINF:-1 tvg-id="CNNPhilippines.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CNN_Philippines_Logo.svg/220px-CNN_Philippines_Logo.svg.png" group-title="Free to Air",CNN Philippines
-https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Rappler_logo.svg/200px-Rappler_logo.svg.png" group-title="News",Rappler Live
 https://ytlive.phcnetwork.workers.dev/stream/rappler/master.m3u8
 
@@ -143,6 +140,9 @@ http://37.58.85.156/rlo001/ngrp:rlo001.stream_all/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Sn44Bm4/mixible.png" group-title="GenEnt",Mixible
+https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 
 #EXTINF:-1 tvg-id="CLTV36.ph" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/9e/CLTV_36_Logo_2020.png" tvg-name="CLTV" group-title="Local/Regional",CLTV
 https://live.cltv36.tv:5443/LiveApp/streams/live.m3u8
