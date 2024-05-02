@@ -137,8 +137,8 @@ https://securestreams7.autopo.st/?uri=http://icecast.eradioportal.com:8000/jam88
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3 (Opt-2)
 https://richwel.serv00.net/twitcher.php?channel=jam883ph&quality=audio_only
 
-#EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/img/wave891-2023.png" group-title="PH Radio" radio="true",Wave 89.1
-https://richwel.serv00.net/twitcher.php?channel=wave891fm&quality=audio_only
+#EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/983/awr-manila-891.ab9269f0.png" group-title="PH Radio" radio="true",AWR Manila 89.1
+https://securestreams7.autopo.st/?uri=http://192.53.113.120:8000/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Magic923.jpeg/190px-Magic923.jpeg" group-title="PH Radio" radio="true",Magic 92.3 Cebu
 https://securestreams7.autopo.st/?uri=http://203.82.37.242:8010/cbu923fm
