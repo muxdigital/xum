@@ -132,19 +132,19 @@ https://stream.zeno.fm/sh37pvfd938uv
 https://richwel.serv00.net/twitcher.php?channel=995playfm&quality=audio_only
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3
-https://securestreams7.autopo.st/?uri=http://icecast.eradioportal.com:8000/jam883
+https://www.liveradio.es/http://icecast.eradioportal.com:8000/jam883
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3 (Opt-2)
 https://richwel.serv00.net/twitcher.php?channel=jam883ph&quality=audio_only
 
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/983/awr-manila-891.ab9269f0.png" group-title="PH Radio" radio="true",AWR Manila 89.1
-https://securestreams7.autopo.st/?uri=http://192.53.113.120:8000/stream
+https://www.liveradio.es/http://192.53.113.120:8000/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Magic923.jpeg/190px-Magic923.jpeg" group-title="PH Radio" radio="true",Magic 92.3 Cebu
-https://securestreams7.autopo.st/?uri=http://203.82.37.242:8010/cbu923fm
+https://www.liveradio.es/http://203.82.37.242:8010/cbu923fm
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Magic891Davao.jpg/220px-Magic891Davao.jpg" group-title="PH Radio" radio="true",Magic 89.1 Davao
-https://securestreams7.autopo.st/?uri=http://203.82.37.242:8010/dvo891fm
+https://www.liveradio.es/http://203.82.37.242:8010/dvo891fm
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/DZRH_logo_2021.png/250px-DZRH_logo_2021.png" group-title="PH Radio" radio="true",DZRH
 https://a3.asurahosting.com:6910/radio.mp3
@@ -168,7 +168,7 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/EASYROCK_MNL.m
 https://playerservices.streamtheworld.com/api/livestream-redirect/EASYROCK_MNLAAC.aac
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin
-https://securestreams7.autopo.st/?uri=http://ph-icecast.eradioportal.com:8000/radyo_natin
+https://www.liveradio.es/http://ph-icecast.eradioportal.com:8000/radyo_natin
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin Visayas
 https://visayas.radyonatinfm.com:8000/stream
@@ -177,10 +177,10 @@ https://visayas.radyonatinfm.com:8000/stream
 https://mindanao.radyonatinfm.com:8000/stream
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Cebu
-https://securestreams7.autopo.st/?uri=http://freeuk24.listen2myradio.com:6920/;stream
+https://www.liveradio.es/http://freeuk24.listen2myradio.com:6920/;stream
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Iloilo
-https://securestreams7.autopo.st/?uri=http://ph-icecast.eradioportal.com:8000/akyson_iloilo
+https://www.liveradio.es/http://ph-icecast.eradioportal.com:8000/akyson_iloilo
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Bacolod
 https://stream.zeno.fm/cba5cxy3hg8uv
@@ -309,88 +309,88 @@ https://amp.radyonatinfm.com/listen/dxtc/cotabato
 https://qp-pldt-live-grp-05-prod.akamaized.net/out/u/radyo5_qp.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/DWRX_Monster_RX_93.1.png/revision/latest/scale-to-width-down/200?cb=20210616080740" group-title="PH Radio" radio="true",Monster RX93.1
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/monsterrx
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/monsterrx
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Monster_bt_1059.png/revision/latest/scale-to-width-down/300?cb=20210616081102" group-title="PH Radio" radio="true",Monster BT105.9 Cebu
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/rxcebu
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/rxcebu
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Monster_bt_995.png/revision/latest/scale-to-width-down/300?cb=20210616081547" group-title="PH Radio" radio="true",Monster BT99.5 Davao
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/monsterrx_davao
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/monsterrx_davao
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Mellow_947.png/200px-Mellow_947.png" group-title="PH Radio" radio="true",Mellow
-https://securestreams7.autopo.st/?uri=http://s3.free-shoutcast.com:18342/stream
+https://www.liveradio.es/http://s3.free-shoutcast.com:18342/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RadyoPilipinas1-logo.png/220px-RadyoPilipinas1-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas
-https://securestreams7.autopo.st/?uri=http://58.97.187.52:5007/rp1
+https://www.liveradio.es/http://58.97.187.52:5007/rp1
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RadyoPilipinas1-logo.png/220px-RadyoPilipinas1-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas (Opt-2)
-https://securestreams7.autopo.st/?uri=http://122.53.138.32:8000/dzrb.mp3
+https://www.liveradio.es/http://122.53.138.32:8000/dzrb.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RadyoPilipinas2-logo.png/220px-RadyoPilipinas2-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 2
-https://securestreams7.autopo.st/?uri=http://58.97.187.52:5007/rp2
+https://www.liveradio.es/http://58.97.187.52:5007/rp2
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RadyoPilipinas2-logo.png/220px-RadyoPilipinas2-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 2 (Opt-2)
-https://securestreams7.autopo.st/?uri=http://122.53.138.32:8000/dzsr.mp3
+https://www.liveradio.es/http://122.53.138.32:8000/dzsr.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/RadyoPilipinas3-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 3
-https://securestreams7.autopo.st/?uri=http://58.97.187.52:5007/rp3
+https://www.liveradio.es/http://58.97.187.52:5007/rp3
 
 #EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/img/rpworldservice-sq300.jpg" group-title="International Radio" radio="true",Radyo Pilipinas World Service
-https://securestreams7.autopo.st/?uri=http://58.97.187.52:5007/rp4
+https://www.liveradio.es/http://58.97.187.52:5007/rp4
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fm1ph-logo.png/200px-Fm1ph-logo.png" group-title="PH Radio" radio="true",FM1
-https://securestreams7.autopo.st/?uri=http://122.53.138.32:8000/dzrm.mp3
+https://www.liveradio.es/http://122.53.138.32:8000/dzrm.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fm1ph-logo.png/200px-Fm1ph-logo.png" group-title="PH Radio" radio="true",FM1 (Opt-2)
-https://securestreams7.autopo.st/?uri=http://122.53.138.32:8000/dzrm.mp3
+https://www.liveradio.es/http://122.53.138.32:8000/dzrm.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2
-https://securestreams7.autopo.st/?uri=http://122.53.138.32:8000/dwbr.mp3
+https://www.liveradio.es/http://122.53.138.32:8000/dwbr.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2 (Opt-2)
-https://securestreams7.autopo.st/?uri=http://122.53.138.32:8000/dwbr.mp3
+https://www.liveradio.es/http://122.53.138.32:8000/dwbr.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fm1ph-network-logo.png/200px-Fm1ph-network-logo.png" group-title="PH Radio" radio="true",FM1 Davao
-https://securestreams7.autopo.st/?uri=http://122.53.138.32:8000/dxfo.mp3
+https://www.liveradio.es/http://122.53.138.32:8000/dxfo.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Eaglefm.jpg/220px-Eaglefm.jpg" group-title="PH Radio" radio="true",Eagle FM 95.5
 https://s5.radio.co/s49bbdfa2a/listen
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ALLRADIO_Logo_2024.svg/250px-ALLRADIO_Logo_2024.svg.png" group-title="PH Radio" radio="true",ALLRADIO 103.5
-https://securestreams7.autopo.st/?uri=http://103.36.17.18:8000/stream
+https://www.liveradio.es/http://103.36.17.18:8000/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News National/Manila
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8068/stream
+https://www.liveradio.es/http://18.141.67.248:8068/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Batangas
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8040/stream
+https://www.liveradio.es/http://18.141.67.248:8040/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Olongapo
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8056/stream
+https://www.liveradio.es/http://18.141.67.248:8056/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Pampanga
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8058/stream
+https://www.liveradio.es/http://18.141.67.248:8058/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Cebu
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8026/stream
+https://www.liveradio.es/http://18.141.67.248:8026/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Bacolod
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8038/stream
+https://www.liveradio.es/http://18.141.67.248:8038/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Tacloban
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8064/stream
+https://www.liveradio.es/http://18.141.67.248:8064/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News GenSan
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8000/stream
+https://www.liveradio.es/http://18.141.67.248:8000/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News CDO
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8010/stream
+https://www.liveradio.es/http://18.141.67.248:8010/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Davao
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8004/stream
+https://www.liveradio.es/http://18.141.67.248:8004/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/73/Brigada_News_FM_Logo_2022.png/revision/latest/scale-to-width-down/250?cb=20230611223320" group-title="PH Radio" radio="true",Brigada News Zamboanga
-https://securestreams7.autopo.st/?uri=http://18.141.67.248:8018/stream
+https://www.liveradio.es/http://18.141.67.248:8018/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Wish_107.5_%282015%29.svg/200px-Wish_107.5_%282015%29.svg.png" group-title="PH Radio" radio="true",Wish 107.5
 https://untv.mmdlive.lldns.net/untv/f55dcf9ae0f542d6a7614893d0c2dd83/manifest.m3u8
@@ -465,10 +465,10 @@ https://ssl1.viastreaming.net:8390/;stream
 https://stream.zeno.fm/kc3cct89sxquv
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Radyo-veritas-846-dzrv-logo.jpeg/220px-Radyo-veritas-846-dzrv-logo.jpeg" group-title="PH Radio" radio="true",Veritas 846
-https://securestreams7.autopo.st/?uri=http://icecast.eradioportal.com:8000/radyo-veritas-846
+https://www.liveradio.es/http://icecast.eradioportal.com:8000/radyo-veritas-846
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Dwxi1314.png/220px-Dwxi1314.png" group-title="PH Radio" radio="true",DWXI
-https://securestreams7.autopo.st/?uri=http://icecast.eradioportal.com:8000/dwxi-streaming
+https://www.liveradio.es/http://icecast.eradioportal.com:8000/dwxi-streaming
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/e/ea/Radyo_Bandera_Network_Logo.png/revision/latest/scale-to-width-down/250?cb=20200927011432" group-title="PH Radio" radio="true",Radyo Bandera
 https://de3.amfmph.com:8546/high
@@ -492,7 +492,7 @@ https://stream.zeno.fm/da8rp3mz8vzuv
 https://stream.zeno.fm/qe40zt70kv8uv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/j829wVs/kissfm-goa.jpg" group-title="PH Radio" radio="true",103.7 Kiss FM Goa
-https://securestreams7.autopo.st/?uri=http://172.105.216.148:8040/radio.mp3
+https://www.liveradio.es/http://172.105.216.148:8040/radio.mp3
 
 #EXTINF:-1 tvg-logo="https://tunein.rpnradio.com/images/banners/baguio_b.png" group-title="PH Radio" radio="true",RPN Radyo Ronda Baguio
 https://dzbs-rpnradio.radioca.st/stream
@@ -534,10 +534,10 @@ http://122.3.31.246:89/broadwave.mp3
 http://122.3.31.246:88/broadwave.mp3
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/philippinetelevision/images/9/92/RW_95.1_FM_Pampanga.jpg/revision/latest/scale-to-width-down/300?cb=20200820091358" group-title="PH Radio" radio="true",RW 95.1
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/rwluzon
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/rwluzon
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Logo-sbr3.PNG/220px-Logo-sbr3.PNG" group-title="PH Radio" radio="true",89.5 Subic Bay Radio
-https://securestreams7.autopo.st/?uri=http://143.44.245.11:8080/895subicbay.mp3
+https://www.liveradio.es/http://143.44.245.11:8080/895subicbay.mp3
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2KzjvBC/dzgb-logo.png" group-title="PH Radio" radio="true",DZGB Legazpi
 https://s1.reliastream.com/proxy/pbnbroad?mp=/stream
@@ -558,19 +558,19 @@ https://us2.amfmph.com/ssl/fmr1?mp=/stream
 https://de3.amfmph.com/ssl/fmrtacloban?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMRadio Baguio
-https://securestreams7.autopo.st/?uri=http://de3.amfmph.com:8715/stream
+https://www.liveradio.es/http://de3.amfmph.com:8715/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMRadio Tagum
-https://securestreams7.autopo.st/?uri=http://de3.amfmph.com:8679/stream
+https://www.liveradio.es/http://de3.amfmph.com:8679/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR SkyRadio DavSur
-https://securestreams7.autopo.st/?uri=http://us1.amfmph.com:8819/stream
+https://www.liveradio.es/http://us1.amfmph.com:8819/stream
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/KpuSYDTjyY.jpg" group-title="PH Radio" radio="true",RMN DYHP Cebu
 https://de3.amfmph.com/proxy/rmncebu?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/x5BsqVtF77.png" group-title="PH Radio" radio="true",iFM Dagupan
-https://securestreams7.autopo.st/?uri=http://ph-icecast.eradioportal.com:8000/ifm_dagupan
+https://www.liveradio.es/http://ph-icecast.eradioportal.com:8000/ifm_dagupan
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gRgZCwp/DYXL-FM-Cebu.png" group-title="PH Radio" radio="true",iFM Cebu
 https://air.doscast.com/proxy/ifmcebu/stream
@@ -627,13 +627,13 @@ https://us1.amfmph.com/ssl/xfmzamboanga?mp=/stream
 https://listen.mixlr.com/a920daf393d971ce4032a7fc1287a683
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/N6mc1rs/RJFM-NEW.png" group-title="PH Radio" radio="true",RJFM
-https://securestreams7.autopo.st/?uri=http://111.125.87.226:8000/streamfm
+https://www.liveradio.es/http://111.125.87.226:8000/streamfm
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/J3j9TkV/dzrj-810.png" group-title="PH Radio" radio="true",Radyo Bandido
-https://securestreams7.autopo.st/?uri=http://111.125.87.226:8000/streamam
+https://www.liveradio.es/http://111.125.87.226:8000/streamam
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/c/c8/106.7_Energy_FM_Logo_2014.png" group-title="PH Radio" radio="true",106.7 Energy FM
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/energyfm_manila
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/energyfm_manila
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/DWIZ_Logo_2002.jpg/220px-DWIZ_Logo_2002.jpg" group-title="PH Radio" radio="true",DWIZ
 https://dwizmanila.radioca.st/stream
@@ -669,13 +669,13 @@ https://hrdavao.radioca.st/stream
 https://hrgensan.radioca.st/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/DZAS.svg/150px-DZAS.svg.png" group-title="PH Radio" radio="true",DZAS
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/febc_dzas
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/febc_dzas
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/DZFE.svg/180px-DZFE.svg.png" group-title="PH Radio" radio="true",DZFE
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/febc_dzfe
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/febc_dzfe
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/T0SLCsQ/Saved-Radio-logo-300x300.png" group-title="PH Radio" radio="true",Saved Radio
-https://securestreams7.autopo.st/?uri=http://s7.voscast.com:9758/stream
+https://s5.radio.co/sc068be842/listen
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/LtGbyb9/The-Edge-Radio-Network-PH.png" group-title="PH Radio" radio="true",The Edge Radio
 https://stream.rcast.net/69951
@@ -693,10 +693,10 @@ https://edge.mixlr.com/channel/gtqpn
 https://stream.zeno.fm/6r0z29bxy1zuv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SxZJPfX/dreamradiotacloban.jpg" group-title="PH Radio" radio="true",Dream Radio Tacloban
-https://securestreams7.autopo.st/?uri=http://streamnavs.net:8133/stream
+https://www.liveradio.es/http://streamnavs.net:8133/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/99.9-Magnum-radio-logo.jpg/240px-99.9-Magnum-radio-logo.jpg" group-title="PH Radio" radio="true",Magnum Radyo CDO
-https://securestreams7.autopo.st/?uri=hhttp://95.154.228.112:28761/;stream.mp3
+https://www.liveradio.es/http://95.154.228.112:28761/;stream.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/MemoRieS_FM_107.1_Baguio.jpg/150px-MemoRieS_FM_107.1_Baguio.jpg" group-title="PH Radio" radio="true",Memories FM Baguio
 https://server10.reliastream.com/proxy/primaxbr?mp=/stream
@@ -708,22 +708,22 @@ https://s5.reliastream.com/proxy/broadtek?mp=/stream
 https://s5.reliastream.com/proxy/bampldi1?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/D4gQzD8/dyrd.png" group-title="PH Radio" radio="true",DYRD Bohol
-https://securestreams7.autopo.st/?uri=http://live.dyrdam.com:8000/dyrdam
+https://www.liveradio.es/http://live.dyrdam.com:8000/dyrdam
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7zcnCck/1023kissfm-bohol.jpg" group-title="PH Radio" radio="true",Kiss FM Bohol
-https://securestreams7.autopo.st/?uri=http://live.kiss102fmbohol.com:8000/kiss
+https://www.liveradio.es/http://live.kiss102fmbohol.com:8000/kiss
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/L01WJYh/f-C573bjs-400x400.jpg" group-title="PH Radio" radio="true",Bible Radio
 https://stream.radio.co/se9de95c10/listen
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/DQEUTtRnck.jpg" group-title="PH Radio" radio="true",Big Sound FM 101.5 Cabanatuan
-https://securestreams7.autopo.st/?uri=http://bigsoundfm.com:8144/listen.mp3
+https://www.liveradio.es/http://bigsoundfm.com:8144/listen.mp3
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/DQEUTtRnck.jpg" group-title="PH Radio" radio="true",Big Sound FM 95.9 Baguio
-https://securestreams7.autopo.st/?uri=http://162.220.162.10:8184/stream
+https://www.liveradio.es/http://162.220.162.10:8184/stream
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/DQEUTtRnck.jpg" group-title="PH Radio" radio="true",Big Sound FM 105.5 San Fernando, La Union
-https://securestreams7.autopo.st/?uri=http://162.220.162.10:8011/stream
+https://www.liveradio.es/http://162.220.162.10:8011/stream
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/K2hHQG8/b1079-tacloban.jpg" group-title="PH Radio" radio="true",B107.9 Kaboses Radio Tacloban
 https://streamnavs.net:8147/stream
@@ -738,7 +738,7 @@ https://edge.mixlr.com/channel/lldmm
 https://cast3.my-control-panel.com/proxy/idmzsayawpinoy/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a1/Rakista_Radio.png/revision/latest/scale-to-width-down/300?cb=20230805115106" group-title="PH Radio" radio="true",Rakista Radio
-https://securestreams7.autopo.st/?uri=http://206.190.138.196:8010/listen.mp3
+https://www.liveradio.es/http://206.190.138.196:8010/listen.mp3
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CK7SR3Q/pinoyrapradio.jpg" group-title="PH Radio" radio="true",Pinoy Rap Radio
 https://stream.zeno.fm/0cdp55nqam0uv
@@ -747,7 +747,7 @@ https://stream.zeno.fm/0cdp55nqam0uv
 https://stream.zeno.fm/7neg6f1hbm0uv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tqPnxmk/BEYOND-RETRO.png" group-title="PH Radio" radio="true",Beyond Retro
-https://securestreams7.autopo.st/?uri=http://sg-icecast.eradioportal.com:8000/beyond-retro
+https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/beyond-retro
 
 #EXTINF:-1 tvg-logo="https://freshfmph.com/wp-content/uploads/2020/10/Fresh-FM-icon.png" group-title="PH Radio" radio="true",FReSH FM Philippines
 https://s36.radiolize.com/radio/8170/radio.mp3
