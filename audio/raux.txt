@@ -515,6 +515,12 @@ https://dxxx-rpnradio.radioca.st/stream
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/TeleRadyo_Serbisyo_logo.svg/250px-TeleRadyo_Serbisyo_logo.svg.png" group-title="PH Radio" radio="true",TeleRadyo (audio)
 https://playerservices.streamtheworld.com/api/livestream-redirect/DZMMAAC_48.aac
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/DWPM_Radyo_Sais_Trenta.svg/220px-DWPM_Radyo_Sais_Trenta.svg.png" group-title="PH Radio" radio="true",Radyo 630
+https://us1.amfmph.com/ssl/radyo630?mp=/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/DWPM_Radyo_Sais_Trenta.svg/220px-DWPM_Radyo_Sais_Trenta.svg.png" group-title="PH Radio" radio="true",Radyo 630 (Opt-2)
+https://www.liveradio.es/http://us1.amfmph.com:8852/stream
+
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e3/MOR_ENT_LOGO.png/revision/latest/scale-to-width-down/270?cb=20210429094722" group-title="PH Radio" radio="true",MOR
 https://playerservices.streamtheworld.com/api/livestream-redirect/MORFM_S01AAC_48.aac
 
@@ -551,23 +557,44 @@ https://s6.reliastream.com/proxy/jolocs08?mp=/;
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JBjT3zW/ok-fm-sorsogon-logo.png" group-title="PH Radio" radio="true",OKFM Sorsogon
 https://s3.reliastream.com/proxy/jolocs03?mp=/;
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMRadio Philippines
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Philippines
 https://us2.amfmph.com/ssl/fmr1?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMRadio Tacloban
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tacloban
 https://de3.amfmph.com/ssl/fmrtacloban?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMRadio Baguio
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tacloban (Opt-2)
+https://www.liveradio.es/http://de3.amfmph.com:8676/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Baguio
 https://www.liveradio.es/http://de3.amfmph.com:8715/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMRadio Cebu
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Cebu
 https://us1.amfmph.com/ssl/fmrcebu?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMRadio Tagum
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Cebu (Opt-2)
+https://www.liveradio.es/http://de3.amfmph.com:8855/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tagum
+https://de3.amfmph.com/ssl/fmrtagum?mp=/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tagum (Opt-2)
 https://www.liveradio.es/http://de3.amfmph.com:8679/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Camiguin
+https://de3.amfmph.com/ssl/fmrcamiguin?mp=/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Camiguin (Opt-2)
+https://www.liveradio.es/http://de3.amfmph.com:8673/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Surigao
+https://www.liveradio.es/http://de3.amfmph.com:8785/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR SkyRadio DavSur
 https://www.liveradio.es/http://us1.amfmph.com:8819/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Radyo Partido (Goa, Camsur)
+https://www.liveradio.es/http://de3.amfmph.com:8596/stream
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/KpuSYDTjyY.jpg" group-title="PH Radio" radio="true",RMN DYHP Cebu
 https://de3.amfmph.com/proxy/rmncebu?mp=/stream
@@ -877,6 +904,9 @@ https://stream.revma.ihrhls.com/zc7403
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-popcorn.png" group-title="US Radio" radio="true",Popcorn Radio | iHeart
 https://stream.revma.ihrhls.com/zc7445
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/yW7J2pf/torturedpoetsradio.jpg" group-title="US Radio" radio="true",Tortured Poets Radio (Taylor's Version) | iHeart
+https://stream.revma.ihrhls.com/zc10237
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-rockrewind.png" group-title="US Radio" radio="true",Rock Rewind | iHeart
 https://stream.revma.ihrhls.com/zc8842
