@@ -342,13 +342,13 @@ https://www.liveradio.es/http://58.97.187.52:5007/rp4
 https://www.liveradio.es/http://122.53.138.32:8000/dzrm.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fm1ph-logo.png/200px-Fm1ph-logo.png" group-title="PH Radio" radio="true",FM1 (Opt-2)
-https://www.liveradio.es/http://122.53.138.32:8000/dzrm.mp3
+https://www.liveradio.es/http://58.97.187.52:5007/fm1
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2
 https://www.liveradio.es/http://122.53.138.32:8000/dwbr.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2 (Opt-2)
-https://www.liveradio.es/http://122.53.138.32:8000/dwbr.mp3
+https://www.liveradio.es/http://58.97.187.52:5007/fm2
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fm1ph-network-logo.png/200px-Fm1ph-network-logo.png" group-title="PH Radio" radio="true",FM1 Davao
 https://www.liveradio.es/http://122.53.138.32:8000/dxfo.mp3
