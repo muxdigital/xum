@@ -560,6 +560,9 @@ https://s3.reliastream.com/proxy/jolocs03?mp=/;
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Philippines
 https://us2.amfmph.com/ssl/fmr1?mp=/stream
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Philippines (Opt-2)
+https://www.liveradio.es/http://us2.amfmph.com:9136/stream
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tacloban
 https://de3.amfmph.com/ssl/fmrtacloban?mp=/stream
 
@@ -905,7 +908,7 @@ https://stream.revma.ihrhls.com/zc7403
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-popcorn.png" group-title="US Radio" radio="true",Popcorn Radio | iHeart
 https://stream.revma.ihrhls.com/zc7445
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yW7J2pf/torturedpoetsradio.jpg" group-title="US Radio" radio="true",Tortured Poets Radio (Taylor's Version) | iHeart
+#EXTINF:-1 tvg-logo="https://i.ibb.co/RStYDBm/torturedpoetsradio.jpg" group-title="US Radio" radio="true",Tortured Poets Radio (Taylor's Version) | iHeart
 https://stream.revma.ihrhls.com/zc10237
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-rockrewind.png" group-title="US Radio" radio="true",Rock Rewind | iHeart
