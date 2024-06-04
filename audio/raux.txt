@@ -576,7 +576,7 @@ https://www.liveradio.es/http://de3.amfmph.com:8715/stream
 https://us1.amfmph.com/ssl/fmrcebu?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Cebu (Opt-2)
-https://www.liveradio.es/http://de3.amfmph.com:8855/stream
+https://www.liveradio.es/http://us1.amfmph.com:8855/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tagum
 https://de3.amfmph.com/ssl/fmrtagum?mp=/stream
