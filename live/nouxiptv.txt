@@ -222,6 +222,9 @@ http://a16e00c6.ucomist.net/iptv/UPKY3Y8BF6KNX8/15184/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Setanta-logo.jpg/220px-Setanta-logo.jpg" group-title="Sports",Setanta Sports Philippines (YT)
 https://ytlive.phcnetwork.workers.dev/stream/setantasportsph/master.m3u8
 
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-logo="https://i.ibb.co/NmP41TL/blastsports-ph.png" group-title="Sports",Blast Sports (TEST STREAM)
+https://dice-live-ap.akamaized.net/hls/live/2102433/266217-271464/exchange266217txthv_266217_800/chunklist.m3u8?hdntl=exp=1717911733~acl=%2f*~id=85d5fdaf-2626-4821-9164-e03d6bbc2261~data=hdntl,dWlkPTl1TGlXenxjMDhjMTU5Yy0wMjEzLTRlNTUtYTIwNy03Y2RjMzcwOThlNTImaXA9MTgwLjIzMi4xNzkuMTc0JmV4cD0xNzE3OTExNzYzJmVpZD0yNjYyMTcmY2lkPWRjZS50YXBnbyZvaWQ9MzI1~hmac=bfce310cb283222e24b320d9fadd8f395cc87d54b274d6606bb2815b0ba58cd1
+
 #EXTINF:-1 tvg-id="LoveNature.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/250px-Love_Nature_TV.png" group-title="Educational",Love Nature
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Love-Nature.m3u8
 
