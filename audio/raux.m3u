@@ -1019,6 +1019,9 @@ https://stream.revma.ihrhls.com/zc6437
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-alt2k.png" group-title="US Radio" radio="true",ALT 2K | iHeart
 https://stream.revma.ihrhls.com/zc7727
 
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-reggae.png" group-title="US Radio" radio="true",iHeartReggae | iHeart
+https://stream.revma.ihrhls.com/zc6788
+
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-indieradio.png" group-title="US Radio" radio="true",Indie Radio | iHeart
 https://stream.revma.ihrhls.com/zc7189
 
@@ -1118,6 +1121,9 @@ https://stream.revma.ihrhls.com/zc7004
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-tejano.png" group-title="US Radio" radio="true",Radio Tejano | iHeart
 https://stream.revma.ihrhls.com/zc9622
 
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-magic_es.png" group-title="US Radio" radio="true",Magic | iHeart
+https://stream.revma.ihrhls.com/zc10085
+
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-fiestalatina.png" group-title="US Radio" radio="true",iHeart Fiesta Latina | iHeart
 https://stream.revma.ihrhls.com/zc7004
 
@@ -1211,6 +1217,18 @@ https://stream.revma.ihrhls.com/zc7251
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-holidayseason.png" group-title="US Radio" radio="true",Holiday Season | iHeart
 https://stream.revma.ihrhls.com/zc9608
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-summersongs.png" group-title="US Radio" radio="true",Songs of the Summer | iHeart
+https://stream.revma.ihrhls.com/zc9421
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-atlantis.png" group-title="US Radio" radio="true",Atlantis Radio | iHeart
+https://stream.revma.ihrhls.com/zc7418
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-realfunbeach.png" group-title="US Radio" radio="true",Real Fun Beach Radio | iHeart
+https://stream.revma.ihrhls.com/zc6221
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-beachbum.png" group-title="US Radio" radio="true",Beach Bum Radio | iHeart
+https://stream.revma.ihrhls.com/zc9791
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-jingleball.png" group-title="US Radio" radio="true",Jingle Ball Radio | iHeart
 https://stream.revma.ihrhls.com/zc9165
