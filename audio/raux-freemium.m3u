@@ -822,13 +822,19 @@ https://npr-ice.streamguys1.com/live.aac
 https://apnews.streamguys1.com/apnews.aac
 
 #EXTINF:-1 tvg-logo="https://img.nbc.com/files/images/2021/3/26/MSNBC-Logo-White-350x300.png" group-title="US Radio" radio="true",MSNBC (audio)
-https://tunein.streamguys1.com/msnbc-tesla
+https://tunein.cdnstream1.com/3511_96.aac
 
 #EXTINF:-1 tvg-logo="https://img.nbc.com/files/images/2019/5/21/CNBC-Dayside-Logo-White-404x300.png" group-title="US Radio" radio="true",CNBC (audio)
-https://tunein.streamguys1.com/cnbc
+https://tunein.cdnstream1.com/3516_96.aac
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s150918/images/logog.jpg" group-title="US Radio" radio="true",ABC News Audio
+https://tunein.cdnstream1.com/4424_96.mp3
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s324075/images/logog.jpg" group-title="US Radio" radio="true",ABC Localish (audio)
+https://tunein.cdnstream1.com/4487_96.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/270px-Newsmax_logo.svg.png" group-title="US Radio" radio="true",Newsmax (audio)
-https://t1.streamguys1.com/newsmax
+https://tunein.cdnstream1.com/4437_96.mp3
 
 #EXTINF:-1 tvg-logo="https://express-images.franklymedia.com/6616/sites/1326/2022/02/09171458/REDE-CM-RedEyeRadio-WHITE.png" group-title="US Radio" radio="true",Red Eye Radio (Talk)
 https://playerservices.streamtheworld.com/api/livestream-redirect/REDEYERADIOAAC.aac
@@ -840,7 +846,7 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/BLZE_1AAC.aac
 https://playerservices.streamtheworld.com/api/livestream-redirect/MARK_LEVINAAC.aac
 
 #EXTINF:-1 tvg-logo="https://www.radio.net/images/broadcasts/d6/bd/176398/1/c300.png" group-title="US Radio" radio="true",Progressive Voices (Progressive Talk)
-https://tunein.streamguys1.com/progressivevoices
+https://tunein.cdnstream1.com/3549_128.mp3
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GxnNTNc/4732.png" group-title="US Radio" radio="true",Fox Sports Radio
 https://stream.revma.ihrhls.com/zc4732
