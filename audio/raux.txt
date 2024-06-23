@@ -827,10 +827,10 @@ https://tunein.cdnstream1.com/3511_96.aac
 #EXTINF:-1 tvg-logo="https://img.nbc.com/files/images/2019/5/21/CNBC-Dayside-Logo-White-404x300.png" group-title="US Radio" radio="true",CNBC (audio)
 https://tunein.cdnstream1.com/3516_96.aac
 
-#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s150918/images/logog.jpg" group-title="US Radio" radio="true",ABC News Audio
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s150918/images/logod.jpg" group-title="US Radio" radio="true",ABC News Audio
 https://tunein.cdnstream1.com/4424_96.mp3
 
-#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s324075/images/logog.jpg" group-title="US Radio" radio="true",ABC Localish (audio)
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s324075/images/logod.jpg" group-title="US Radio" radio="true",ABC Localish (audio)
 https://tunein.cdnstream1.com/4487_96.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/270px-Newsmax_logo.svg.png" group-title="US Radio" radio="true",Newsmax (audio)
@@ -1241,6 +1241,9 @@ https://stream.revma.ihrhls.com/zc9165
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-festivalradio.png" group-title="US Radio" radio="true",iHeartRadio Music Festival | iHeart
 https://stream.revma.ihrhls.com/zc5158
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s242677/images/logod.jpg" group-title="US Radio" radio="true",TuneIn - Today's Hits
+https://rfcm.streamguys1.com/todayhits-mp3
 
 #EXTINF:-1 tvg-logo="https://live.mystreamplayer.com/configs/images/frn_icon-new.png" group-title="US Radio" radio="true",Family Radio
 https://ais-sa3.cdnstream1.com/2640_64.aac
