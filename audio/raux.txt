@@ -857,6 +857,9 @@ https://stream.revma.ihrhls.com/zc4732
 #EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/img/espn-radio.png" group-title="US Radio" radio="true",ESPN Radio
 https://live.amperwave.net/direct/espn-network-48
 
+#EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/img/espn-radio.png" group-title="US Radio" radio="true",ESPN Talk Podcast Channel 24/7
+https://tunein.cdnstream1.com/3655_128.mp3
+
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-hitnation.png" group-title="US Radio" radio="true",Hit Nation | iHeart
 https://stream.revma.ihrhls.com/zc4422
 
