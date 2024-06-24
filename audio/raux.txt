@@ -1242,6 +1242,12 @@ https://stream.revma.ihrhls.com/zc9165
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-festivalradio.png" group-title="US Radio" radio="true",iHeartRadio Music Festival | iHeart
 https://stream.revma.ihrhls.com/zc5158
 
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/nbcolympicsradio.png" group-title="US Radio" radio="true",NBC Olympics Radio | iHeart
+https://stream.revma.ihrhls.com/zc10378
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/nbcolympicsradio-plus.png" group-title="US Radio" radio="true",NBC Olympics Radio Plus | iHeart
+https://stream.revma.ihrhls.com/zc10401
+
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s242677/images/logod.jpg" group-title="US Radio" radio="true",TuneIn - Today's Hits
 https://rfcm.streamguys1.com/todayhits-mp3
 
