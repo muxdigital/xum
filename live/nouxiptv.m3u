@@ -22,7 +22,7 @@ https://ytlive.phcnetwork.workers.dev/stream/HouseofRepresentativesPH/master.m3u
 https://ytlive.phcnetwork.workers.dev/stream/RTVMalacanang/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Philippine_Charity_Sweepstakes_Office_%28PCSO%29.svg/220px-Philippine_Charity_Sweepstakes_Office_%28PCSO%29.svg.png" group-title="Live",PCSO Live (2PM/5PM/9PM)
-https://ytlive.phcnetwork.workers.dev/stream/pcsogovphofficial/master.m3u8
+https://ytlive.phcnetwork.workers.dev/stream/PCSOGOVPHOfficial/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Y101FMcebu.png/220px-Y101FMcebu.png" group-title="Live",Y101FM Cebu (Twitch)
 https://richwel.serv00.net/twitcher.php?channel=y101fmcebu&quality=360p
@@ -52,13 +52,16 @@ https://ytlive.phcnetwork.workers.dev/stream/abscbnentertainment/master.m3u8
 https://ytlive.phcnetwork.workers.dev/stream/abscbnnews/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/TeleRadyo_Serbisyo_logo.svg/250px-TeleRadyo_Serbisyo_logo.svg.png" group-title="News",TeleRadyo Serbisyo / Radyo 630 (YT)
-https://ytlive.phcnetwork.workers.dev/stream/radyo630/master.m3u8
+https://ytlive.phcnetwork.workers.dev/stream/TeleradyoSerbisyo/master.m3u8
 
 #EXTINF:-1 tvg-id="PTV.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",PTV
 https://qn-10135-spc-qb-1-1.dailymotion-live-mr.qwilted-cds.cqloud.com/sec(vb0ikD3rmZA2RvEN2UsfwAd4nLqHso-fEbwGziZPtsrj_574Cbh_7s3nenWOGS14)/dm/3/x5cr6b9/s/live-2.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",PTV (YT)
 https://ytlive.phcnetwork.workers.dev/stream/ptvph/master.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",Radyo Pilipinas
+https://ytlive.phcnetwork.workers.dev/stream/RadyoPilipinas1/master.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://yt3.googleusercontent.com/W0tlUmeXL5xQAsgs4TImS46l7TGnmuUcJRttmoXSmT9Kznm8xns8EV6hYuN5alffb9tItWcw=s300-c-k-c0x00ffffff-no-rj" group-title="News",News5 (YT)
 https://ytlive.phcnetwork.workers.dev/stream/news5everywhere/master.m3u8
