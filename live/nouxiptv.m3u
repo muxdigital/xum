@@ -84,6 +84,9 @@ https://ytlive.phcnetwork.workers.dev/stream/onephoncignal/master.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/43j8swTcnEVw0DCjrcR2qDDvF6-9vQjOAF3t9051EV2pv1wXiA2W7a6MNS0zlgdIQsc2O1phZw=s300-c-k-c0x00ffffff-no-rj" group-title="News",Abante TeleTabloid
 https://ytlive.phcnetwork.workers.dev/stream/DWAR1494AbanteRadyo/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/x7M1qzN/newswatchplusph-social1.jpg" group-title="News",NewsWatch Plus
+https://ytlive.phcnetwork.workers.dev/stream/NewsWatchPlusPH/master.m3u8
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Rappler_logo.svg/200px-Rappler_logo.svg.png" group-title="News",Rappler
 https://ytlive.phcnetwork.workers.dev/stream/Rappler/master.m3u8
 
