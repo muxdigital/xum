@@ -198,6 +198,12 @@ https://ytlive.phcnetwork.workers.dev/stream/plusnetwork2020/master.m3u8
 #EXTINF:-1 tvg-id="LifeTVAsia.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Life_TV_Logo.jpg/revision/latest?cb=20171225062543" group-title="Religious",Life TV Asia
 https://ytlive.phcnetwork.workers.dev/stream/LIFETVASIAOFFICIAL/master.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/HN45cqBJfxnmjf-fMV9LRKt_F8tF5wQ4xxZTyOe9TYDB1o0mqYpaFDhF77nNP6uFoeonIrw3Rg=s300-c-k-c0x00ffffff-no-rj" group-title="Religious",PMCC 4th Watch
+https://ytlive.phcnetwork.workers.dev/stream/PMCC4thWatchOfficial/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Victory_Christian_Fellowship.png" group-title="Religious",Victory BGC
+https://ytlive.phcnetwork.workers.dev/stream/victorybgc/master.m3u8
+
 #EXTINF:-1 tvg-id="GCTVAsia.ph" tvg-name="GCTV" tvg-logo="https://www.lyngsat.com/logo/tv/gg/great-commission-tv-ph.png" group-title="Religious",GCTV
 http://45.32.115.103/live/livestream/index.m3u8
 
@@ -212,6 +218,9 @@ https://3abn-live.akamaized.net/hls/live/2010543/3ABN/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/vXqTjSQ/3ABN-Int.png" group-title="Religious",3ABN International (SDA)
 https://3abn-live.akamaized.net/hls/live/2010544/International/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/nUYLKPIPAHaZen18YKP1vhXRHf1WfmrphYWfzn7N_KSkEga-85iJ9M09ftd0Ov17x-1PzvFT=s300-c-k-c0x00ffffff-no-rj" group-title="Religious",AWR Manila TV (SDA)
+https://ytlive.phcnetwork.workers.dev/stream/adventistworldradiomanila/master.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Maharlika_Pilipinas_Basketball_League_2022.png/200px-Maharlika_Pilipinas_Basketball_League_2022.png" group-title="Sports",MPBL (Basketball)
 https://ytlive.phcnetwork.workers.dev/stream/MPBLOfficial/master.m3u8
