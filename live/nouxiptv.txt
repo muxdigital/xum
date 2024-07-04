@@ -81,8 +81,11 @@ https://ytlive.phcnetwork.workers.dev/stream/onenewsph/master.m3u8
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/220px-OnePHCignal.svg.png" group-title="News",One PH (YT)
 https://ytlive.phcnetwork.workers.dev/stream/onephoncignal/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Rappler_logo.svg/200px-Rappler_logo.svg.png" group-title="News",Rappler Live
-https://ytlive.phcnetwork.workers.dev/stream/rappler/master.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/43j8swTcnEVw0DCjrcR2qDDvF6-9vQjOAF3t9051EV2pv1wXiA2W7a6MNS0zlgdIQsc2O1phZw=s300-c-k-c0x00ffffff-no-rj" group-title="News",Abante TeleTabloid
+https://ytlive.phcnetwork.workers.dev/stream/DWAR1494AbanteRadyo/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Rappler_logo.svg/200px-Rappler_logo.svg.png" group-title="News",Rappler
+https://ytlive.phcnetwork.workers.dev/stream/Rappler/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Astro_Awani_501.png/220px-Astro_Awani_501.png" tvg-name="Astro Awani" group-title="News",Astro Awani
 https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
@@ -351,7 +354,7 @@ https://shls-fight-sports-ak.akamaized.net/out/v1/ee7e6475b12e484bbfa5c31461ad43
 #EXTINF:-1 tvg-id="Fite.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/FITE_TV.svg/1200px-FITE_TV.svg.png" group-title="Sports",Fite
 http://protv.fun/play/live.php?mac=00:1A:79:51:A3:DB&stream=507154&extension=ts&play_token=7nk16od5oz
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://impactwrestling.com/wp-content/uploads/2020/09/Impact-3D-White-Logo.png" group-title="Sports",Impact Wrestling
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/TNA_logo_2024.png/275px-TNA_logo_2024.png" group-title="Sports",TNA Wrestling
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/59b722526996084038c01e1b/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://assets.manutd.com/AssetPicker/images/0/0/7/70/476872/MUTV-LightBG1515755997863.png" group-title="Sports",MUTV (Man Utd)
