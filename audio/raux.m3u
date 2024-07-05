@@ -485,6 +485,9 @@ https://stream.zeno.fm/dlej297l1gtvv
 #EXTINF:-1 tvg-logo="https://liveonlineradio.net/wp-content/uploads/2021/01/Green-Giant-FM-220x108.jpg" group-title="PH Radio" radio="true",Green Giant FM (DLSU)
 https://stream.greengiantfm.com/stream
 
+#EXTINF:-1 tvg-logo="https://storage.mixlrcdn.com/cdn-cgi/image/format=auto,fit=contain,gravity=auto,width=100,height=100,quality=80,dpr=1/a6xmokxp0ybmy5pm0rlyks0n7nxe" group-title="PH Radio" radio="true",Mapua Radio Cardinal (Mapua)
+https://edge.mixlr.com/channel/nhtli
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Jt82Xtd/newslinecl-removebg-preview-1-e1688736520884.png" group-title="PH Radio" radio="true",Newsline Central Luzon 103.1
 https://stream.zeno.fm/da8rp3mz8vzuv
 
