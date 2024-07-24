@@ -147,7 +147,7 @@ https://www.liveradio.es/http://203.82.37.242:8010/cbu923fm
 https://www.liveradio.es/http://203.82.37.242:8010/dvo891fm
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/DZRH_logo_2021.png/250px-DZRH_logo_2021.png" group-title="PH Radio" radio="true",DZRH
-https://a3.asurahosting.com:6910/radio.mp3
+https://a4.asurahosting.com:6540/radio.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Love_Radio_%28Philippine_radio_station%29_logo.png/150px-Love_Radio_%28Philippine_radio_station%29_logo.png" group-title="PH Radio" radio="true",Love Radio
 https://playerservices.streamtheworld.com/api/livestream-redirect/LOVERADIO_MNL.mp3
