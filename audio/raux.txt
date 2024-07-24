@@ -825,6 +825,9 @@ https://npr-ice.streamguys1.com/live.aac
 https://apnews.streamguys1.com/apnews.aac
 
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s310584/images/logod.jpg" group-title="US Radio" radio="true",NBC News Now (audio)
+https://playerservices.streamtheworld.com/api/livestream-redirect/NBCNN_FLAAC.aac
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s310584/images/logod.jpg" group-title="US Radio" radio="true",NBC News Now (audio; Opt-2)
 https://tunein.cdnstream1.com/3602_96.mp3
 
 #EXTINF:-1 tvg-logo="https://img.nbc.com/files/images/2021/3/26/MSNBC-Logo-White-350x300.png" group-title="US Radio" radio="true",MSNBC (audio)
