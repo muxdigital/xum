@@ -1473,7 +1473,7 @@ https://stream.revma.ihrhls.com/zc285
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/sfc/kioi.png" group-title="US Radio" radio="true",Star 101.3 | San Francisco
 https://stream.revma.ihrhls.com/zc281
 
-#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/sfc/kosf.png" group-title="US Radio" radio="true",80s+ FM 103.7 | San Francisco
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/sfc/kosf.png" group-title="US Radio" radio="true",Classic Hits 103.7 | San Francisco
 https://stream.revma.ihrhls.com/zc4342
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/sfc/kmel.png" group-title="US Radio" radio="true",106.1 KMEL | San Francisco
