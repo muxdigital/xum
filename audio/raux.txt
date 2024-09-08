@@ -326,17 +326,35 @@ https://www.liveradio.es/http://58.97.187.52:5007/rp1
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RadyoPilipinas1-logo.png/220px-RadyoPilipinas1-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas (Opt-2)
 https://www.liveradio.es/http://122.53.138.32:8000/dzrb.mp3
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RadyoPilipinas1-logo.png/220px-RadyoPilipinas1-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas (Opt-3)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DZRBAM
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RadyoPilipinas1-logo.png/220px-RadyoPilipinas1-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas (Opt-4)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DZRBAM_AAC
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RadyoPilipinas2-logo.png/220px-RadyoPilipinas2-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 2
 https://www.liveradio.es/http://58.97.187.52:5007/rp2
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RadyoPilipinas2-logo.png/220px-RadyoPilipinas2-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 2 (Opt-2)
 https://www.liveradio.es/http://122.53.138.32:8000/dzsr.mp3
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RadyoPilipinas2-logo.png/220px-RadyoPilipinas2-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 2 (Opt-3)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DZSRAM
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/RadyoPilipinas2-logo.png/220px-RadyoPilipinas2-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 2 (Opt-4)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DZSRAM_AAC
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/RadyoPilipinas3-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 3
 https://www.liveradio.es/http://58.97.187.52:5007/rp3
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/RadyoPilipinas3-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas 3 (Opt-2)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DZRMAM
+
 #EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/img/rpworldservice-sq300.jpg" group-title="International Radio" radio="true",Radyo Pilipinas World Service
 https://www.liveradio.es/http://58.97.187.52:5007/rp4
+
+#EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/img/rpworldservice-sq300.jpg" group-title="International Radio" radio="true",Radyo Pilipinas World Service (Opt-2)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/RPWORLD
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fm1ph-logo.png/200px-Fm1ph-logo.png" group-title="PH Radio" radio="true",FM1
 https://www.liveradio.es/http://122.53.138.32:8000/dzrm.mp3
@@ -344,14 +362,29 @@ https://www.liveradio.es/http://122.53.138.32:8000/dzrm.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fm1ph-logo.png/200px-Fm1ph-logo.png" group-title="PH Radio" radio="true",FM1 (Opt-2)
 https://www.liveradio.es/http://58.97.187.52:5007/fm1
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fm1ph-logo.png/200px-Fm1ph-logo.png" group-title="PH Radio" radio="true",FM1 (Opt-3)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DWFOFM
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fm1ph-logo.png/200px-Fm1ph-logo.png" group-title="PH Radio" radio="true",FM1 (Opt-4)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DWFOFM_AAC
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2
 https://www.liveradio.es/http://122.53.138.32:8000/dwbr.mp3
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2 (Opt-2)
 https://www.liveradio.es/http://58.97.187.52:5007/fm2
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2 (Opt-3)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DWFTFM
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fm2ph-logo.png/200px-Fm2ph-logo.png" group-title="PH Radio" radio="true",FM2 (Opt-4)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DWFTFM_AAC
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fm1ph-network-logo.png/200px-Fm1ph-network-logo.png" group-title="PH Radio" radio="true",FM1 Davao
 https://www.liveradio.es/http://122.53.138.32:8000/dxfo.mp3
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fm1ph-network-logo.png/200px-Fm1ph-network-logo.png" group-title="PH Radio" radio="true",FM1 Davao (Opt-2)
+https://www.liveradio.es/http://daphtls.serv00.net:8990/DXFOFM_AAC
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Eaglefm.jpg/220px-Eaglefm.jpg" group-title="PH Radio" radio="true",Eagle FM 95.5
 https://s5.radio.co/s49bbdfa2a/listen
