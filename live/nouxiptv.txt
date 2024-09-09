@@ -13,13 +13,13 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,C
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Sportswire.m3u8
 
 #EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/live/noux/prts1-logo.png" group-title="News",PRTS1 - Senate
-https://ytlive.phcnetwork.workers.dev/stream/senateofthephilippines/master.m3u8
+https://ythls-v3.onrender.com/channel/UCPJWi44tskVVMNyKzYrPoGg.m3u8
 
 #EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/live/noux/prts2-logo.png" group-title="News",PRTS2 - Kamara
-https://ytlive.phcnetwork.workers.dev/stream/HouseofRepresentativesPH/master.m3u8
+https://ythls-v3.onrender.com/channel/UCtGmCfZ4O1zrl9c8BEhGvRg.m3u8
 
 #EXTINF:-1 tvg-logo="https://github.com/nouxikast/NOUx/raw/feed/img/rtvm.jpg" group-title="News",RTVM
-https://ytlive.phcnetwork.workers.dev/stream/RTVMalacanang/master.m3u8
+https://ythls-v3.onrender.com/channel/UC46YJ9p0d6MSUXRZFRZrwGQ.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Philippine_Charity_Sweepstakes_Office_%28PCSO%29.svg/220px-Philippine_Charity_Sweepstakes_Office_%28PCSO%29.svg.png" group-title="Live",PCSO Live (2PM/5PM/9PM)
 https://ytlive.phcnetwork.workers.dev/stream/PCSOGOVPHOfficial/master.m3u8
@@ -37,10 +37,10 @@ https://etslive-2-vidio-com.akamaized.net/live/7687/master.m3u8?auth=Q2ZJVFo5akN
 https://ytlive.phcnetwork.workers.dev/stream/seatodaylive/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/DZRH_News_Television_Logo_%282021%29.jpg/250px-DZRH_News_Television_Logo_%282021%29.jpg" group-title="News",DZRH TV
-https://ytlive.phcnetwork.workers.dev/stream/DZRHTV/master.m3u8
+https://ythls-v3.onrender.com/channel/UCcTiBX8js_djhSSlmJRI99A.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Radio_Mindanao_Network_%282014%29.png/220px-Radio_Mindanao_Network_%282014%29.png" group-title="News",RMN TV (DZXL 558)
-https://ytlive.phcnetwork.workers.dev/stream/dzxlnews/master.m3u8
+https://ythls-v3.onrender.com/channel/UC0x58b8W1OdhFcr3RJmJbmg.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/dVuMSdfgN7.png" group-title="News",DZME RadyoTV
 https://ythls.onrender.com/channel/UC5D7OLxnIxhKu2m0R85Ki9A.m3u8
@@ -49,46 +49,46 @@ https://ythls.onrender.com/channel/UC5D7OLxnIxhKu2m0R85Ki9A.m3u8
 https://ytlive.phcnetwork.workers.dev/stream/abscbnentertainment/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABS-CBN_%282013%29.svg/206px-ABS-CBN_%282013%29.svg.png" group-title="News",ABS-CBN News (YT)
-https://ytlive.phcnetwork.workers.dev/stream/abscbnnews/master.m3u8
+https://ythls.onrender.com/channel/UCE2606prvXQc_noEqKxVJXA.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/TeleRadyo_Serbisyo_logo.svg/250px-TeleRadyo_Serbisyo_logo.svg.png" group-title="News",TeleRadyo Serbisyo / Radyo 630 (YT)
-https://ytlive.phcnetwork.workers.dev/stream/TeleradyoSerbisyo/master.m3u8
+https://ythls.onrender.com/channel/UCs_VNu-FQ0WcJnD4QkmIL5w.m3u8
 
 #EXTINF:-1 tvg-id="PTV.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",PTV
 https://qn-10135-spc-qb-1-1.dailymotion-live-mr.qwilted-cds.cqloud.com/sec(vb0ikD3rmZA2RvEN2UsfwAd4nLqHso-fEbwGziZPtsrj_574Cbh_7s3nenWOGS14)/dm/3/x5cr6b9/s/live-2.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",PTV (YT)
-https://ytlive.phcnetwork.workers.dev/stream/ptvph/master.m3u8
+https://ythls.onrender.com/channel/UCJCUbMaY593_4SN1QPG7NFQ.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",Radyo Pilipinas
-https://ytlive.phcnetwork.workers.dev/stream/RadyoPilipinas1/master.m3u8
+https://ythls.onrender.com/channel/UCM7Hx3Mr7gpYi2iaRx11LhA.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://yt3.googleusercontent.com/W0tlUmeXL5xQAsgs4TImS46l7TGnmuUcJRttmoXSmT9Kznm8xns8EV6hYuN5alffb9tItWcw=s300-c-k-c0x00ffffff-no-rj" group-title="News",News5 (YT)
-https://ytlive.phcnetwork.workers.dev/stream/news5everywhere/master.m3u8
+https://ythls.onrender.com/channel/UCGEbMwiX774cseKvJqF9R2g.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/220px-GMA_Network_Logo_Vector.svg.png" group-title="News",GMA News (YT)
-https://ytlive.phcnetwork.workers.dev/stream/gmanews/master.m3u8
+https://ythls.onrender.com/channel/UCqYw-CTd1dU2yGI71sEyqNw.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/270px-UNTV-Logo-2016.svg.png" group-title="Free to Air",UNTV News
 https://untv.mmdlive.lldns.net/untv/0251dac212a94932ae3563150cbb3788/untvweb.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/270px-UNTV-Logo-2016.svg.png" group-title="News",UNTV News (YT)
-https://ytlive.phcnetwork.workers.dev/stream/untvnewsandrescue/master.m3u8
+https://ythls.onrender.com/channel/UC3XaG-7UVi2vD8ZZEMNnnpw.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OneNewsPH_logo.svg/220px-OneNewsPH_logo.svg.png" group-title="News",One News (YT)
-https://ytlive.phcnetwork.workers.dev/stream/onenewsph/master.m3u8
+https://ythls-v3.onrender.com/channel/UCzEAC4xGrhpShopTYgBhGJA.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/220px-OnePHCignal.svg.png" group-title="News",One PH (YT)
-https://ytlive.phcnetwork.workers.dev/stream/onephoncignal/master.m3u8
+https://ythls-v3.onrender.com/channel/UCi-D5IxBR2HahDyfJfqy7jA.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/43j8swTcnEVw0DCjrcR2qDDvF6-9vQjOAF3t9051EV2pv1wXiA2W7a6MNS0zlgdIQsc2O1phZw=s300-c-k-c0x00ffffff-no-rj" group-title="News",Abante TeleTabloid
-https://ytlive.phcnetwork.workers.dev/stream/DWAR1494AbanteRadyo/master.m3u8
+https://ythls-v3.onrender.com/channel/UCz4VKr9Ty8G6QRnLhMfth9w.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/x7M1qzN/newswatchplusph-social1.jpg" group-title="News",NewsWatch Plus
-https://ytlive.phcnetwork.workers.dev/stream/NewsWatchPlusPH/master.m3u8
+https://ythls-v3.onrender.com/channel/UCj6spMO3ybZPobE0T5perHA.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Rappler_logo.svg/200px-Rappler_logo.svg.png" group-title="News",Rappler
-https://ytlive.phcnetwork.workers.dev/stream/Rappler/master.m3u8
+https://ythls-v3.onrender.com/channel/UCdnZdQxYXnbN4uWJg96oGxw.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Astro_Awani_501.png/220px-Astro_Awani_501.png" tvg-name="Astro Awani" group-title="News",Astro Awani
 https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
