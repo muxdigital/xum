@@ -1,0 +1,22 @@
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/id/transvision.co.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/mewatch.sg.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ye-en/osn.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz"
+
+#EXTINF:-1 tvg-id="()" tvg-name="NOUx",NOUx
+https://archive.org/download/nou-mainident/NOU-mainident-360p.ts
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/nouxikast/24SN/raw/gh-pages/wp-content/uploads/24sn-mini-i1.png" group-title="News",24SN
+http://cmmnet-tls-nouxlive.bot.nu/live/noux/24sn-global/index.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/250px-Newsmax_logo.svg.png" group-title="News",Newsmax
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://www.newsmaxtv.com/CMSScripts/NewsmaxTV/images/logos/Newsmax2-white.png" group-title="News",Newsmax2
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/One_America_News_Network_logo.svg/200px-One_America_News_Network_logo.svg.png" group-title="News",One America News
+https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/oan_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Real_America%27s_Voice_logo.webp/138px-Real_America%27s_Voice_logo.webp.png" group-title="News",Real America's Voice
+https://manifest-gcp-us-east1-vop1.fastly.video.gettr.com/lMnZEHhg65PuhhnC01xIuElZkRoRsgCRnWaRIU6OqwZJLDrSqwaMXXTUMnL3LOIULSBEGQFV02teeHsaeNLxFsDkhp00i7bAGVV/rendition.m3u8?cdn=fastly&exclude_pdt=false&expires=1726660800&skid=default&signature=NjZlYWMwYzBfODU4MWFjMTFmNWU5ZjRlY2IyOGZkY2M0MDQzMjE3NTEzNGFmYTNjNWQ4MDA3NjQ4OTI2ODk4MGU0ZDBmYWEzMA==&vsid=MraKSgQ5XlMNf01YTfuyJPo01eOwAs4lz3xsxFgMtiBT901kSed66WsR01yNrGYWL8AoAj7BNwsKd7A
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RSBNlogo.png/260px-RSBNlogo.png" group-title="News",RSBN
+https://rumble.com/live-hls-dvr/5am0od/playlist.m3u8
