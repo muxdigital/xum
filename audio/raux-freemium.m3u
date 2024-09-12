@@ -971,6 +971,9 @@ https://stream.revma.ihrhls.com/zc8842
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-ohw.png" group-title="US Radio" radio="true",One Hit Wonder Radio | iHeart
 https://stream.revma.ihrhls.com/zc6669
 
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-petradio.png" group-title="US Radio" radio="true",Pet Radio | iHeart
+https://stream.revma.ihrhls.com/zc10231
+
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-247news.png" group-title="US Radio" radio="true",24/7 News | iHeart
 https://stream.revma.ihrhls.com/zc6043
 
@@ -1013,7 +1016,8 @@ https://stream.revma.ihrhls.com/zc7360
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-wild.png" group-title="US Radio" radio="true",Wild | iHeart
 https://stream.revma.ihrhls.com/zc4722
 
-
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-kpopradio.png" group-title="US Radio" radio="true",KPOP Radio | iHeart
+https://stream.revma.ihrhls.com/zc9003
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-rocknation.png" group-title="US Radio" radio="true",Rock Nation | iHeart
 https://stream.revma.ihrhls.com/zc4443
