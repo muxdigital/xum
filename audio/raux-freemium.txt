@@ -1016,7 +1016,7 @@ https://stream.revma.ihrhls.com/zc7360
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-wild.png" group-title="US Radio" radio="true",Wild | iHeart
 https://stream.revma.ihrhls.com/zc4722
 
-#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-kpopradio.png" group-title="US Radio" radio="true",KPOP Radio | iHeart
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-kpop.png" group-title="US Radio" radio="true",KPOP Radio | iHeart
 https://stream.revma.ihrhls.com/zc9003
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-rocknation.png" group-title="US Radio" radio="true",Rock Nation | iHeart
