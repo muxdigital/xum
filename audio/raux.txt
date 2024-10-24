@@ -594,10 +594,10 @@ https://s6.reliastream.com/proxy/jolocs08?mp=/;
 https://s3.reliastream.com/proxy/jolocs03?mp=/;
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Philippines
-https://us2.amfmph.com/ssl/fmr1?mp=/stream
+https://us1.amfmph.com/ssl/fmrmanila?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Philippines (Opt-2)
-https://www.liveradio.es/http://us2.amfmph.com:9136/stream
+https://www.liveradio.es/http://us1.amfmph.com:8872/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tacloban
 https://de3.amfmph.com/ssl/fmrtacloban?mp=/stream
