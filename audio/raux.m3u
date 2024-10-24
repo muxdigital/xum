@@ -828,7 +828,7 @@ https://s36.radiolize.com/radio/8170/radio.mp3
 https://listen.imjinteractive.net:8006/stream
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Mf4YgKW/949cb8-095eb78a77494ac0a5f6feee9c460065-mv2.png" group-title="PH Radio" radio="true",AllHitz24
-https://listen.dmediaprod.com/stream-64
+https://stream.allhitz24.com/stream-64
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/BBC_World_Service_red.svg/200px-BBC_World_Service_red.svg.png" group-title="International Radio" radio="true",BBC World Service
 https://stream.live.vc.bbcmedia.co.uk/bbc_world_service
