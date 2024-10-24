@@ -7,7 +7,7 @@ Warning: This file is not mean to be edited. Please put your custom CSS into you
 @charset "UTF-8";
 @font-face {
   font-family: flowplayer;
-  src: url("https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/icons/flowplayer.eot?#iefix") format("embedded-opentype"), url("https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/icons/flowplayer.woff2") format("woff2"), url("https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/icons/flowplayer.woff") format("woff"); }
+  src: url("https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/icons/flowplayer.eot?#iefix") format("embedded-opentype"), url("https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/icons/flowplayer.woff2") format("woff2"), url("https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/icons/flowplayer.woff") format("woff"); }
 
 .fp-icon { display: inline-block; }
   .fp-icon:before, .fp-icon:after { font-family: flowplayer; font-size: 1.7em; }
@@ -186,8 +186,8 @@ Warning: This file is not mean to be edited. Please put your custom CSS into you
     font-size: 150%;
     text-align: center; }
   .flowplayer .fp-chromecast-engine .fp-chromecast-engine-icon {
-    -webkit-mask-image: url("https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIG9wYWNpdHk9Ii4xIi8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMSAxOHYzaDNjMC0xLjY2LTEuMzQtMy0zLTN6bTAtNHYyYzIuNzYgMCA1IDIuMjQgNSA1aDJjMC0zLjg3LTMuMTMtNy03LTd6bTE4LTdINXYxLjYzYzMuOTYgMS4yOCA3LjA5IDQuNDEgOC4zNyA4LjM3SDE5Vjd6TTEgMTB2MmM0Ljk3IDAgOSA0LjAzIDkgOWgyYzAtNi4wOC00LjkzLTExLTExLTExem0yMC03SDNjLTEuMSAwLTIgLjktMiAydjNoMlY1aDE4djE0aC03djJoN2MxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgo8L3N2Zz4=");
-    mask-image: url("https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIG9wYWNpdHk9Ii4xIi8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMSAxOHYzaDNjMC0xLjY2LTEuMzQtMy0zLTN6bTAtNHYyYzIuNzYgMCA1IDIuMjQgNSA1aDJjMC0zLjg3LTMuMTMtNy03LTd6bTE4LTdINXYxLjYzYzMuOTYgMS4yOCA3LjA5IDQuNDEgOC4zNyA4LjM3SDE5Vjd6TTEgMTB2MmM0Ljk3IDAgOSA0LjAzIDkgOWgyYzAtNi4wOC00LjkzLTExLTExLTExem0yMC03SDNjLTEuMSAwLTIgLjktMiAydjNoMlY1aDE4djE0aC03djJoN2MxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgo8L3N2Zz4=");
+    -webkit-mask-image: url("https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIG9wYWNpdHk9Ii4xIi8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMSAxOHYzaDNjMC0xLjY2LTEuMzQtMy0zLTN6bTAtNHYyYzIuNzYgMCA1IDIuMjQgNSA1aDJjMC0zLjg3LTMuMTMtNy03LTd6bTE4LTdINXYxLjYzYzMuOTYgMS4yOCA3LjA5IDQuNDEgOC4zNyA4LjM3SDE5Vjd6TTEgMTB2MmM0Ljk3IDAgOSA0LjAzIDkgOWgyYzAtNi4wOC00LjkzLTExLTExLTExem0yMC03SDNjLTEuMSAwLTIgLjktMiAydjNoMlY1aDE4djE0aC03djJoN2MxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgo8L3N2Zz4=");
+    mask-image: url("https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIG9wYWNpdHk9Ii4xIi8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMSAxOHYzaDNjMC0xLjY2LTEuMzQtMy0zLTN6bTAtNHYyYzIuNzYgMCA1IDIuMjQgNSA1aDJjMC0zLjg3LTMuMTMtNy03LTd6bTE4LTdINXYxLjYzYzMuOTYgMS4yOCA3LjA5IDQuNDEgOC4zNyA4LjM3SDE5Vjd6TTEgMTB2MmM0Ljk3IDAgOSA0LjAzIDkgOWgyYzAtNi4wOC00LjkzLTExLTExLTExem0yMC03SDNjLTEuMSAwLTIgLjktMiAydjNoMlY1aDE4djE0aC03djJoN2MxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgo8L3N2Zz4=");
     -webkit-mask-size: 100% 100%;
     background-color: #fff;
     margin: 10% auto 2em;
@@ -1181,7 +1181,7 @@ Warning: This file is not mean to be edited. Please put your custom CSS into you
 
 /* error icon */
 .is-error.flowplayer .fp-player:before {
-  background: url("https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/img/no-play-white.svg") no-repeat center center;
+  background: url("https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/img/no-play-white.svg") no-repeat center center;
   background-size: 14%;
   z-index: 2;
   content: '';
@@ -1525,7 +1525,7 @@ Warning: This file is not mean to be edited. Please put your custom CSS into you
 .flowplayer.is-poster .wpfp_custom_ad { display: none; }  
 
 .fv_fp_close { position: absolute; right: 2px; top: 2px; z-index: 2147483647; }
-.fv_fp_close a { display: block; width: 16px; height: 16px; background: url(https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/img/exit_btn.png) no-repeat; background-size: 16px 16px; }
+.fv_fp_close a { display: block; width: 16px; height: 16px; background: url(https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/img/exit_btn.png) no-repeat; background-size: 16px 16px; }
 
 .wpfp_custom_ad_content h1, .wpfp_custom_ad_content h2, .wpfp_custom_ad_content h3, 	.wpfp_custom_ad_content h4, .wpfp_custom_ad_content h5, .wpfp_custom_ad_content p { padding: 0 5px 2px 5px; margin: 0 5px 2px 5px; }
 
@@ -1737,7 +1737,7 @@ article .entry-content .fvfp_admin_error p { line-height: 18px }
 
 
 /*  Some loading indicator, todo: check */
-.flowplayer .fv-form-loading{ background:transparent url(https://nouxikast.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/loading.gif) 50% 50% no-repeat; }
+.flowplayer .fv-form-loading{ background:transparent url(https://muxdigital.github.io/NOUx/beta/wp-content/plugins/fv-wordpress-flowplayer/css/loading.gif) 50% 50% no-repeat; }
 
 
 /*  Chrome download button fix, todo: check!  */
