@@ -305,7 +305,7 @@ https://ph.radyonatinfm.com/listen/dxwg/tagum
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin Cotabato City (Maguindanao)
 https://amp.radyonatinfm.com/listen/dxtc/cotabato
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Radyo5truefm.jpg/220px-Radyo5truefm.jpg" group-title="PH Radio" radio="true",Radyo5 True FM
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TrueFM-logo.png/220px-TrueFM-logo.png" group-title="PH Radio" radio="true",True FM
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/radyo5_qp.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/DWRX_Monster_RX_93.1.png/revision/latest/scale-to-width-down/200?cb=20210616080740" group-title="PH Radio" radio="true",Monster RX93.1
@@ -858,7 +858,7 @@ https://npr-ice.streamguys1.com/live.aac
 https://apnews.streamguys1.com/apnews.aac
 
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s310584/images/logod.jpg" group-title="US Radio" radio="true",NBC News Now (audio)
-https://playerservices.streamtheworld.com/api/livestream-redirect/NBCNN_FLAAC.aac
+https://playerservices.streamtheworld.com/api/livestream-redirect/NBC_NEWSNOWAAC.aac
 
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s310584/images/logod.jpg" group-title="US Radio" radio="true",NBC News Now (audio; Opt-2)
 https://tunein.cdnstream1.com/3602_96.mp3
