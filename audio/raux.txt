@@ -1257,6 +1257,9 @@ https://stream.revma.ihrhls.com/zc6734
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-christmasclassics.png" group-title="US Radio" radio="true",iHeartChristmas Classics | iHeart
 https://stream.revma.ihrhls.com/zc6137
 
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-christmaspop.png" group-title="US Radio" radio="true",iHeartChristmas Pop | iHeart
+https://stream.revma.ihrhls.com/zc10050
+
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-christmasrock.png" group-title="US Radio" radio="true",iHeartChristmas Rock | iHeart
 https://stream.revma.ihrhls.com/zc6410
 
