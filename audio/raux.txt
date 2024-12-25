@@ -593,10 +593,10 @@ https://s6.reliastream.com/proxy/jolocs08?mp=/;
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JBjT3zW/ok-fm-sorsogon-logo.png" group-title="PH Radio" radio="true",OKFM Sorsogon
 https://s3.reliastream.com/proxy/jolocs03?mp=/;
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Philippines
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/FMRadio_Manila.png/200px-FMRadio_Manila.png" group-title="PH Radio" radio="true",FM Radio Philippines
 https://us1.amfmph.com/ssl/fmrmanila?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Philippines (Opt-2)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/FMRadio_Manila.png/200px-FMRadio_Manila.png" group-title="PH Radio" radio="true",FM Radio Philippines (Opt-2)
 https://www.liveradio.es/http://us1.amfmph.com:8872/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tacloban
@@ -608,16 +608,16 @@ https://www.liveradio.es/http://de3.amfmph.com:8676/stream
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Baguio
 https://www.liveradio.es/http://de3.amfmph.com:8715/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Cebu
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FMRadio_Cebu.png/220px-FMRadio_Cebu.png" group-title="PH Radio" radio="true",FM Radio Cebu
 https://us1.amfmph.com/ssl/fmrcebu?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Cebu (Opt-2)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FMRadio_Cebu.png/220px-FMRadio_Cebu.png" group-title="PH Radio" radio="true",FM Radio Cebu (Opt-2)
 https://www.liveradio.es/http://us1.amfmph.com:8855/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tagum
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Davao
 https://de3.amfmph.com/ssl/fmrtagum?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Tagum (Opt-2)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Davao (Opt-2)
 https://www.liveradio.es/http://de3.amfmph.com:8679/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FM Radio Camiguin
