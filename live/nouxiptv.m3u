@@ -145,7 +145,13 @@ https://skystreams-lh.akamaihd.net/i/SkyC2_1@500807/master.m3u8
 https://skystreams-lh.akamaihd.net/i/SkyC3_1@500808/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reuters_Logo.svg/220px-Reuters_Logo.svg.png" group-title="News",Reuters Channel
-http://37.58.85.156/rlo001/ngrp:rlo001.stream_all/playlist.m3u8
+https://s9host4.localnow.api.cms.amdvids.com/v1/manifest/c189661feba961c19bc5fb60b57879ee9b84548a/config11/fb29e434-bc9e-49a5-a6e8-5a7bdde1a2a4/4.m3u8
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/A9BAC7BD-E8B0-4B2D-B290-9AF210B32B50/3-1x1.png/300?webp=1" group-title="News",ET Channel (Entertainment Tonight)
+https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/cd768a59-48dc-40d4-91ac-61b005823384:MRN2/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/F18D7F32-BC3A-444E-BB73-8F5336F53EFC/3-1x1.png/300?webp=1" group-title="News",Inside Edition
+https://dai.google.com/linear/hls/pa/event/Y2DMgfclT3S2nNxANeIawA/stream/7604430e-5517-4ca8-9883-f1c1c3aeb52a:MRN2/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
