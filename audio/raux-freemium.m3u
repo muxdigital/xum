@@ -671,28 +671,28 @@ https://fr1.amfmph.com:8128/stream
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/819DXUM_LOGO_BLACK.png/220px-819DXUM_LOGO_BLACK.png" group-title="PH Radio" radio="true",DXUM 819 Davao
 https://fr1.amfmph.com/ssl/dxumdavao?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM Davao (97.9 Davao / 100.7 Tagum)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Davao (97.9 Davao / 100.7 Tagum)
 https://us1.amfmph.com/ssl/xfmdavao?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM Cebu 88.3
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Cebu 88.3
 https://us1.amfmph.com/ssl/xfmcebu?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM Bacolod 96.7
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Bacolod 96.7
 https://us1.amfmph.com/ssl/xfmbacolod?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM Iloilo 100.7
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Iloilo 100.7
 https://us1.amfmph.com/ssl/xfmiloilo?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM Kalibo 96.5
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Kalibo 96.5
 https://us1.amfmph.com/ssl/xfmkalibo?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM Palawan 104.7
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Palawan 104.7
 https://us1.amfmph.com/ssl/xfmpalawan?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM General Santos 104.7
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM General Santos 104.7
 https://us1.amfmph.com/ssl/xfmgensan?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/djGXBZB/xfm-ph.png" group-title="PH Radio" radio="true",XFM Zamboanga 99.5
+#EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Zamboanga 99.5
 https://us1.amfmph.com/ssl/xfmzamboanga?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ZffJcMc/neoretro.jpg" group-title="PH Radio" radio="true",NeoRetro
@@ -1545,13 +1545,13 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/WSRBFMAAC.aac
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/chi/wgci.png" group-title="US Radio" radio="true",WGCI 107.5 | Chicago
 https://stream.revma.ihrhls.com/zc841
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/560_KSFO_logo_2016.svg/200px-560_KSFO_logo_2016.svg.png" group-title="US Radio" radio="true",Talk Radio 560 KSFO | San Francisco
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/810_KSFO_logo.png/220px-810_KSFO_logo.png" group-title="US Radio" radio="true",Talk Radio 810 KSFO (560 KZAC) | San Francisco
 https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/KNBR_logo.png/220px-KNBR_logo.png" group-title="US Radio" radio="true",KNBR (AM680/104.5FM) | San Francisco
 https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4b/KGO_810_The_Spread_logo.png" group-title="US Radio" radio="true",KGO-AM - 810 The Spread | San Francisco
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/810_KSFO_logo.png/220px-810_KSFO_logo.png" group-title="US Radio" radio="true",Talk Radio 810 KSFO | San Francisco
 https://playerservices.streamtheworld.com/api/livestream-redirect/KGOAMAAC.aac
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/sfc/kksf.png" group-title="US Radio" radio="true",BIN AM910 Bay Area | San Francisco
