@@ -695,6 +695,9 @@ https://us1.amfmph.com/ssl/xfmgensan?mp=/stream
 #EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Zamboanga 99.5
 https://us1.amfmph.com/ssl/xfmzamboanga?mp=/stream
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/48dRCF2/solidfmbcd.png" group-title="PH Radio" radio="true",Solid FM Bacolod 90.3
+https://us1.amfmph.com/ssl/solidfmbacolod?mp=/stream
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ZffJcMc/neoretro.jpg" group-title="PH Radio" radio="true",NeoRetro
 https://listen.mixlr.com/a920daf393d971ce4032a7fc1287a683
 
