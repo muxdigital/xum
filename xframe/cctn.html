@@ -15,7 +15,7 @@
 
   if (Hls.isSupported()) {
     var hls = new Hls();
-    hls.loadSource('https://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8');
+    hls.loadSource('http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8');
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
