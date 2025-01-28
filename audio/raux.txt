@@ -83,26 +83,32 @@ https://stream.zeno.fm/q6ajegn25ratv
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JssSdX7/raudio-rockxp-social0.png" group-title="Raudio Channels" radio="true",Raudio RockXP
 https://stream.zeno.fm/tipjvqbpmgotv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wsdD76g/24sn-social0.png" group-title="Raudio Channels" radio="true",24SN
+#EXTINF:-1 tvg-logo="https://i.ibb.co/r62F4q6/muxnewsnet-social0.png" group-title="Raudio Channels" radio="true",MUX NewsNet
 https://stream.zeno.fm/2hyu6hv2bzzuv
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/MghTT8s/mnx-social0.png" group-title="Raudio Channels" radio="true",MNX
+https://stream.zeno.fm/5uqbq022cy8uv
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/qn0R0w3/mux-bznet-social0.png" group-title="Raudio Channels" radio="true",MUX BZNet
+https://stream.zeno.fm/6lx1lnjwvvsuv
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wsdD76g/24sn-social0.png" group-title="Raudio Channels" radio="true",24SN
+https://stream.zeno.fm/baemze0kcc9uv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/sqPQch5/24snx-social0.png" group-title="Raudio Channels" radio="true",24SNx
 https://stream.zeno.fm/b1ghr812cy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wgT1HHD/nou-newsjuan-social0.png" group-title="Raudio Channels" radio="true",NewsRadio Juan
+#EXTINF:-1 tvg-logo="https://i.ibb.co/9N3Vqt9/muxjuan-social0.png" group-title="Raudio Channels" radio="true",NewsJuan
 https://stream.zeno.fm/33ztywrzdzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/m6yqT1f/nou-newsdos-social0.png" group-title="Raudio Channels" radio="true",NewsRadio Dos
+#EXTINF:-1 tvg-logo="https://i.ibb.co/5x25gQG/muxdos-social0.png" group-title="Raudio Channels" radio="true",NewsDos
 https://stream.zeno.fm/gbs88gzzdzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/K5Vby4Q/nou-newsbuletin-social0.png" group-title="Raudio Channels" radio="true",NewsRadio Buletin
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hB9C9Sv/muxtres-social0.png" group-title="Raudio Channels" radio="true",NewsTres Buletin
 https://stream.zeno.fm/0qavarzyx1zuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/GJ08kfT/isports-social0.png" group-title="Raudio Channels" radio="true",iSports
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wrpFMQX/muxsportsnet-social0.png" group-title="Raudio Channels" radio="true",MUX SportsNet
 https://stream.zeno.fm/28te2pa0afhvv
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/0jwGHwj/isportsxtra-social0.png" group-title="Raudio Channels" radio="true",iSports XTRA
-https://stream.zeno.fm/5uqbq022cy8uv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/6P8gncv/ikastraudio-social4.png" group-title="Raudio Channels" radio="true",Raudio Live
 https://stream.zeno.fm/yg6051tskm0uv
@@ -1749,11 +1755,11 @@ https://stream.revma.ihrhls.com/zc8470
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CNA938_logo.png/200px-CNA938_logo.png" group-title="International Radio" radio="true",CNA938 Singapore
 https://playerservices.streamtheworld.com/api/livestream-redirect/938NOWAAC.aac
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Fb6LyLq/rnt-social0.png" group-title="International Radio" radio="true",RNT (Talk)
-https://stream.zeno.fm/baemze0kcc9uv
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DpbN38w/knt-social0.png" group-title="International Radio" radio="true",KNT (Progressive Talk)
+https://www.liveradio.es/http://rauxnet.serv00.net:8870/KNT
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/rbV6Qww/wnn-social0.png" group-title="International Radio" radio="true",WNN / TALKAST (Progressive Talk)
-https://stream.zeno.fm/6lx1lnjwvvsuv
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rbV6Qww/wnn-social0.png" group-title="International Radio" radio="true",WNN (Conservative Talk)
+https://www.liveradio.es/http://rauxnet.serv00.net:8870/WNN
 
 #EXTINF:-1 tvg-logo="https://sounds.files.bbci.co.uk/3.5.0/networks/bbc_radio_one/blocks-white_default.svg" group-title="UK Radio" radio="true",BBC Radio 1
 https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/aks/bbc_radio_one.m3u8
