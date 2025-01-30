@@ -3,7 +3,10 @@
 #EXTINF:-1 tvg-id="()" tvg-name="XUM",XUM
 https://archive.org/download/nou-mainident/NOU-mainident-360p.ts
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/nouxikast/24SN/raw/gh-pages/wp-content/uploads/24sn-mini-i1.png" group-title="News",24SN
+#EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX
+https://cageu.bozztv.com/ssh101/ssh101/noutv1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/nouxikast/24SN/raw/gh-pages/wp-content/uploads/24sn-mini-i1.png" group-title="MUX",24SN
 http://cmmnet-tls-nouxlive.bot.nu/live/noux/24sn-global/index.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/44P5qnP/37K0AZX.png" group-title="News",USA Today Network
