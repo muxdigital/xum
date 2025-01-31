@@ -135,7 +135,7 @@ https://richwel.serv00.net/twitcher.php?channel=995playfm&quality=audio_only
 https://www.liveradio.es/http://icecast.eradioportal.com:8000/jam883
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3 (Opt-2)
-https://richwel.serv00.net/twitcher.php?channel=jam883ph&quality=audio_only
+https://richwel.serv00.net/twitcher.php?channel=Jam883WeRockRadio&quality=audio_only
 
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/983/awr-manila-891.ab9269f0.png" group-title="PH Radio" radio="true",AWR Manila 89.1
 https://www.liveradio.es/http://192.53.113.120:8000/stream

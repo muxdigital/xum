@@ -27,6 +27,9 @@ https://ythls-v3.onrender.com/channel/UC46YJ9p0d6MSUXRZFRZrwGQ.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Philippine_Charity_Sweepstakes_Office_%28PCSO%29.svg/220px-Philippine_Charity_Sweepstakes_Office_%28PCSO%29.svg.png" group-title="Live",PCSO Live (2PM/5PM/9PM)
 https://ytlive.phcnetwork.workers.dev/stream/PCSOGOVPHOfficial/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="Live",Jam 88.3 (Twitch)
+https://richwel.serv00.net/twitcher.php?channel=Jam883WeRockRadio&quality=360p
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Y101FMcebu.png/220px-Y101FMcebu.png" group-title="Live",Y101FM Cebu (Twitch)
 https://richwel.serv00.net/twitcher.php?channel=y101fmcebu&quality=360p
 
