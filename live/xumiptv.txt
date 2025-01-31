@@ -52,31 +52,31 @@ https://ythls.onrender.com/channel/UC5D7OLxnIxhKu2m0R85Ki9A.m3u8
 https://ytlive.phcnetwork.workers.dev/stream/abscbnentertainment/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABS-CBN_%282013%29.svg/206px-ABS-CBN_%282013%29.svg.png" group-title="News",ABS-CBN News (YT)
-https://ythls.onrender.com/channel/UCE2606prvXQc_noEqKxVJXA.m3u8
+https://ythls-v3.onrender.com/channel/UCE2606prvXQc_noEqKxVJXA.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/TeleRadyo_Serbisyo_logo.svg/250px-TeleRadyo_Serbisyo_logo.svg.png" group-title="News",TeleRadyo Serbisyo / Radyo 630 (YT)
-https://ythls.onrender.com/channel/UCs_VNu-FQ0WcJnD4QkmIL5w.m3u8
+https://ythls-v3.onrender.com/channel/UCs_VNu-FQ0WcJnD4QkmIL5w.m3u8
 
 #EXTINF:-1 tvg-id="PTV.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",PTV
 https://qn-10135-spc-qb-1-1.dailymotion-live-mr.qwilted-cds.cqloud.com/sec(vb0ikD3rmZA2RvEN2UsfwAd4nLqHso-fEbwGziZPtsrj_574Cbh_7s3nenWOGS14)/dm/3/x5cr6b9/s/live-2.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",PTV (YT)
-https://ythls.onrender.com/channel/UCJCUbMaY593_4SN1QPG7NFQ.m3u8
+https://ythls-v3.onrender.com/channel/UCJCUbMaY593_4SN1QPG7NFQ.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Free to Air",Radyo Pilipinas
-https://ythls.onrender.com/channel/UCM7Hx3Mr7gpYi2iaRx11LhA.m3u8
+https://ythls-v3.onrender.com/channel/UCM7Hx3Mr7gpYi2iaRx11LhA.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://yt3.googleusercontent.com/W0tlUmeXL5xQAsgs4TImS46l7TGnmuUcJRttmoXSmT9Kznm8xns8EV6hYuN5alffb9tItWcw=s300-c-k-c0x00ffffff-no-rj" group-title="News",News5 (YT)
-https://ythls.onrender.com/channel/UCGEbMwiX774cseKvJqF9R2g.m3u8
+https://ythls-v3.onrender.com/channel/UCGEbMwiX774cseKvJqF9R2g.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/220px-GMA_Network_Logo_Vector.svg.png" group-title="News",GMA News (YT)
-https://ythls.onrender.com/channel/UCqYw-CTd1dU2yGI71sEyqNw.m3u8
+https://ythls-v3.onrender.com/channel/UCqYw-CTd1dU2yGI71sEyqNw.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/270px-UNTV-Logo-2016.svg.png" group-title="Free to Air",UNTV News
 https://untv.mmdlive.lldns.net/untv/0251dac212a94932ae3563150cbb3788/untvweb.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/270px-UNTV-Logo-2016.svg.png" group-title="News",UNTV News (YT)
-https://ythls.onrender.com/channel/UC3XaG-7UVi2vD8ZZEMNnnpw.m3u8
+https://ythls-v3.onrender.com/channel/UC3XaG-7UVi2vD8ZZEMNnnpw.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OneNewsPH_logo.svg/220px-OneNewsPH_logo.svg.png" group-title="News",One News (YT)
 https://ythls-v3.onrender.com/channel/UCzEAC4xGrhpShopTYgBhGJA.m3u8
@@ -103,22 +103,28 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ABC_News_solid_black_logo.svg/220px-ABC_News_solid_black_logo.svg.png" group-title="News",ABC News (YT)
-https://ytlive.phcnetwork.workers.dev/stream/abcnews/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/abcnews/master.m3u8
 
 #EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-logo="https://i.ibb.co/jrcg5n8/NBC-News-Now.png" group-title="News",NBC News Now
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,NBC-News-Now.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/NBC_News_%282023%29.svg/210px-NBC_News_%282023%29.svg.png" group-title="News",NBC News (YT)
-https://ytlive.phcnetwork.workers.dev/stream/nbcnews/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/nbcnews/master.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CBS_News_logo_%282020%29.svg/250px-CBS_News_logo_%282020%29.svg.png" group-title="News",CBS News (YT)
-https://ytlive.phcnetwork.workers.dev/stream/cbsnews/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/cbsnews/master.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/LiveNOW_from_FOX.png/250px-LiveNOW_from_FOX.png" group-title="News",LiveNOW from Fox (YT)
-https://ytlive.phcnetwork.workers.dev/stream/livenowfox/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/livenowfox/master.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/LiveNOW_from_FOX.png/250px-LiveNOW_from_FOX.png" group-title="News",Fox News Channel
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/M2Q1gCR/5f3b43f0529439aac0159456.png" group-title="News",Fox News Radio (TV)
+https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/250px-Newsmax_logo.svg.png" group-title="News",Newsmax TV (YT)
-https://ytlive.phcnetwork.workers.dev/stream/newsmaxtv/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/newsmaxtv/master.m3u8
 
 #EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://i.ibb.co/DwCXp9h/sky-news-w1.png" group-title="News",Sky News UK
 https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951223&ads._fw_ifa_type=dpid&ads._fw_did=7721903e-a983-b931-2adf-8d5ba3059a7a&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=SkyNews&ads.csid=xumo_desktopweb_SkyNews_ssai&ads._fw_is_lat=1&ads._fw_us_privacy=1YNY&ads._fw_coppa=0&ads.genre=&ads._fw_content_category=IAB12&ads._fw_content_language=en&ads._fw_content_genre=News&ads._fw_content_title=Sky%20News&ads._fw_content_rating=TV-PG&ads.xumo_contentId=3455&ads.xumo_contentName=SkyNews&ads.xumo_providerId=3455&ads.xumo_providerName=SkyNews&ads._fw_deviceMake=&ads._fw_device_model=&ads.channelId=99951223&ads.xumo_platform=desktopweb&ads.site_id=26840&ads.appName=xumo&ads.appVersion=2.8.13&ads._fw_app_bundle=&ads._fw_app_store_url=
@@ -193,25 +199,25 @@ http://195.24.89.82/VH1_SD/index.m3u8
 https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-myxnola/CDN/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Love_Radio_%28Philippine_radio_station%29_logo.png/150px-Love_Radio_%28Philippine_radio_station%29_logo.png" group-title="Live",Love Radio (YT)
-https://ytlive.phcnetwork.workers.dev/stream/loveradiomanila/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/loveradiomanila/master.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/YesFMManila2024.png/250px-YesFMManila2024.png" group-title="Live",Yes FM (YT)
-https://ytlive.phcnetwork.workers.dev/stream/yesfmmanila1011/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/yesfmmanila1011/master.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/13/New_modernized_logo_of_96.3_Easy_Rock_-_Vectorized_via_InkScape.svg/250px-New_modernized_logo_of_96.3_Easy_Rock_-_Vectorized_via_InkScape.svg.png" group-title="Live",Easy Rock (YT)
-https://ytlive.phcnetwork.workers.dev/stream/easyrockmanila/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/easyrockmanila/master.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/K9PxhV0/Plus-Network-Logo-1-768x461.png" group-title="Live",Plus Network
-https://ytlive.phcnetwork.workers.dev/stream/plusnetwork2020/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/plusnetwork2020/master.m3u8
 
 #EXTINF:-1 tvg-id="LifeTVAsia.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Life_TV_Logo.jpg/revision/latest?cb=20171225062543" group-title="Religious",Life TV Asia
-https://ytlive.phcnetwork.workers.dev/stream/LIFETVASIAOFFICIAL/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/LIFETVASIAOFFICIAL/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/HN45cqBJfxnmjf-fMV9LRKt_F8tF5wQ4xxZTyOe9TYDB1o0mqYpaFDhF77nNP6uFoeonIrw3Rg=s300-c-k-c0x00ffffff-no-rj" group-title="Religious",PMCC 4th Watch
-https://ytlive.phcnetwork.workers.dev/stream/PMCC4thWatchOfficial/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/PMCC4thWatchOfficial/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Victory_Christian_Fellowship.png" group-title="Religious",Victory BGC
-https://ytlive.phcnetwork.workers.dev/stream/victorybgc/master.m3u8
+https://ytlive-v3.phcnetwork.workers.dev/stream/victorybgc/master.m3u8
 
 #EXTINF:-1 tvg-id="GCTVAsia.ph" tvg-name="GCTV" tvg-logo="https://www.lyngsat.com/logo/tv/gg/great-commission-tv-ph.png" group-title="Religious",GCTV
 http://45.32.115.103/live/livestream/index.m3u8
