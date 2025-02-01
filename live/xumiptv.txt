@@ -9,6 +9,9 @@ https://ssh101stream.ssh101.com/akamaissh101/ssh101/noutv1/playlist.m3u8
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/nouxikast/24SN/raw/gh-pages/wp-content/uploads/24sn-mini-i1.png" group-title="MUX",24SN
 http://cmmnet-tls-nouxlive.bot.nu/live/noux/24sn-global/index.m3u8
 
+#EXTINF:-1 tvg-id="()" tvg-logo="https://yt3.googleusercontent.com/XsBHQooEhdeBloLpCEbHaCui0LcQBYvmqPNm6y94AKhTEWiwNovyFBidiuehXPPGdZxVtso4rw=s300-c-k-c0x00ffffff-no-rj" group-title="News",Jevara PH
+https://ythls-v3.onrender.com/channel/UCguYll1CFyQW4Salbfp8oBA.m3u8
+
 #EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/44P5qnP/37K0AZX.png" group-title="News",USA Today Network
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-USA-Today.m3u8
 
