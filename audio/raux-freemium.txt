@@ -1007,6 +1007,12 @@ https://stream.revma.ihrhls.com/zc7120
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-classicfunk.png" group-title="US Radio" radio="true",Classic Funk | iHeart
 https://stream.revma.ihrhls.com/zc6955
 
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-motownsounds.png" group-title="US Radio" radio="true",Motown Sounds | iHeart
+https://stream.revma.ihrhls.com/zc7801
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-bhm.png" group-title="US Radio" radio="true",Black History Month Radio | iHeart
+https://stream.revma.ihrhls.com/zc9335
+
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-flynation.png" group-title="US Radio" radio="true",Fly Nation (Classic Hip-Hop) | iHeart
 https://stream.revma.ihrhls.com/zc6732
 
@@ -1093,6 +1099,9 @@ https://streaming.live365.com/a77334
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-jazzclassics.png" group-title="US Radio" radio="true",iHeartJazz Classics | iHeart
 https://stream.revma.ihrhls.com/zc9918
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-blackjazzblues.png" group-title="US Radio" radio="true",Black Jazz and Blues | iHeart
+https://stream.revma.ihrhls.com/zc7804
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-vinylexperience.png" group-title="US Radio" radio="true",The Vinyl Experience | iHeart
 https://stream.revma.ihrhls.com/zc6878
