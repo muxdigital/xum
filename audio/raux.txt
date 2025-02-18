@@ -141,6 +141,9 @@ https://richwel.serv00.net/twitcher.php?channel=995playfm&quality=audio_only
 https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/jam883
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3 (Opt-2)
+https://www.liveradio.es/http://ph-icecast.eradioportal.com:8000/jam883
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3 (Opt-3)
 https://richwel.serv00.net/twitcher.php?channel=Jam883WeRockRadio&quality=audio_only
 
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/983/awr-manila-891.ab9269f0.png" group-title="PH Radio" radio="true",AWR Manila 89.1
@@ -174,13 +177,19 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/EASYROCK_MNL.m
 https://playerservices.streamtheworld.com/api/livestream-redirect/EASYROCK_MNLAAC.aac
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin
-https://www.liveradio.es/http://ph-icecast.eradioportal.com:8000/radyo_natin
+https://stream.rcast.net/72040
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin (Opt-2)
+https://www.liveradio.es/http://in-icecast.eradioportal.com:8000/radyo_natin
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin Visayas
 https://visayas.radyonatinfm.com:8000/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin Mindanao
 https://mindanao.radyonatinfm.com:8000/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/DZRH_News_FM_94.3_logo.jpg/150px-DZRH_News_FM_94.3_logo.jpg" group-title="PH Radio" radio="true",DZRH News FM Gensan
+https://a4.asurahosting.com:8430/radio.mp3
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Cebu
 https://www.liveradio.es/http://freeuk24.listen2myradio.com:6920/;stream
@@ -192,7 +201,7 @@ https://www.liveradio.es/http://ph-icecast.eradioportal.com:8000/akyson_iloilo
 https://stream.zeno.fm/cba5cxy3hg8uv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Tacloban
-https://fr1.amfmph.com:8203/stream
+https://www.liveradio.es/http://fr1.amfmph.com:8203/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Love_Radio_2021_logo.png/210px-Love_Radio_2021_logo.png" group-title="PH Radio" radio="true",Love Radio Dagupan
 https://loveradiodagupan.radioca.st/stream
