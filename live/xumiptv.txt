@@ -416,3 +416,6 @@ https://moviesphere-samsung-samsungus.amagi.tv/playlist480p.m3u8
 
 #EXTINF:-1 tvg-id="MovieSphere.us" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f2313e05-03e3-44df-802c-415368e9356a/MovieSphere_Plex_LogoDisplay_OnDark.png" group-title="Movies",MovieSphere (HD)
 https://moviesphere-samsung-samsungus.amagi.tv/playlist720p.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://ml02dtnc01wc.i.optimole.com/w:945/h:945/q:mauto/ig:avif/https://mindanownetwork.com/wp-content/uploads/2024/11/Mindanow-Network-Logo-Vertical.png" group-title="Lifestyle",Mindanow Network
+https://streams1.comclark.com/overlay/mindanow/playlist.m3u8
