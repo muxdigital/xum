@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="*" radio="true",RAUx
 https://archive.org/download/offline-videos/Music-Interlude-Break-RAUx.mp3
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="*" radio="true",IF YOU'RE GOING TO LISTEN TO AUDACY-OWNED STATIONS AND SOME STATIONS OWNED BY CUMULUS AND EMMIS WITH THE [GBLK] (GEOBLOCK) TAG, USE VPN AND CHOOSE U.S. SERVER.
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="*" radio="true",IF YOU'RE GOING TO LISTEN TO AUDACY-OWNED STATIONS AND SOME STATIONS OWNED BY CUMULUS AND EMMIS WITH THE [GBLK] (GEOBLOCK) TAG, USE VPN AND CHOOSE U.S. SERVER.
 https://archive.org/download/offline-videos/Music-Interlude-Break-RAUx.mp3
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bvFR1YB/raudio-juanfm-social0.png" group-title="Raudio Channels" radio="true",Raudio Juan FM
@@ -113,22 +113,22 @@ https://stream.zeno.fm/28te2pa0afhvv
 #EXTINF:-1 tvg-logo="https://i.ibb.co/6P8gncv/ikastraudio-social4.png" group-title="Raudio Channels" radio="true",Raudio Live
 https://stream.zeno.fm/yg6051tskm0uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="Freemium Choice" radio="true",Raudio 70s
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="Freemium Choice" radio="true",RAUX 70s
 https://stream.zeno.fm/dhfeupcsgy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="Freemium Choice" radio="true",Raudio 80s
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="Freemium Choice" radio="true",RAUX 80s
 https://stream.zeno.fm/hc9dtgpsgy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="Freemium Choice" radio="true",Raudio 90s
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="Freemium Choice" radio="true",RAUX 90s
 https://stream.zeno.fm/qasc2busgy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="Freemium Choice" radio="true",Raudio 2000s
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="Freemium Choice" radio="true",RAUX 2000s
 https://stream.zeno.fm/dm67e31apy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="Freemium Choice" radio="true",Raudio 2010s
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="Freemium Choice" radio="true",RAUX 2010s
 https://stream.zeno.fm/qznwryabpy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4pT69bY/rau-social1.png" group-title="Freemium Choice" radio="true",Raudio MNLSound
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="Freemium Choice" radio="true",RAUX MNLSound
 https://stream.zeno.fm/pkbwgm92f78uv
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Magic89.9_logo.gif/220px-Magic89.9_logo.gif" group-title="PH Radio" radio="true",Magic 89.9
