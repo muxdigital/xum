@@ -929,11 +929,17 @@ https://stream.revma.ihrhls.com/zc7362
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-hot.png" group-title="US Radio" radio="true",HOT | iHeart
 https://stream.revma.ihrhls.com/zc8830
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/American_Top_40_logo.svg/280px-American_Top_40_logo.svg.png" group-title="US Radio" radio="true",American Top 40 | iHeart
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/at40seacrest.png" group-title="US Radio" radio="true",American Top 40 | iHeart
 https://stream.revma.ihrhls.com/zc4802
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-countdown.png" group-title="US Radio" radio="true",iHeartRadio Countdown | iHeart
 https://stream.revma.ihrhls.com/zc6455
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/rickdeeswt40.png" group-title="US Radio" radio="true",Rick Dees Weekly Top 40 | iHeart
+https://stream.revma.ihrhls.com/zc10599
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/rickdeeswt40.png" group-title="US Radio" radio="true",Classic Rick Dees Weekly Top 40 | iHeart
+https://stream.revma.ihrhls.com/zc10600
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-kidsclub.png" group-title="US Radio" radio="true",Kids Club | iHeart
 https://stream.revma.ihrhls.com/zc6551
