@@ -15,6 +15,9 @@ https://stream.gia.tv/giatvplayout7/giatv-209323/playlist.m3u8
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxdos-social0.png" group-title="MUX",MUX Dos
 https://stream.gia.tv/giatvplayout7/giatv-209333/playlist.m3u8
 
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxtres-social0.png" group-title="MUX",MUX Dos
+https://stream.gia.tv/giatvplayout7/giatv-209353/playlist.m3u8
+
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnews-social0.png" group-title="MUX",MUX News (LIVE)
 https://stream.gia.tv/giatv/giatv-muxnewsnet/muxnewsnet/playlist.m3u8
 
