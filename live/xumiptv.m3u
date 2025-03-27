@@ -423,6 +423,12 @@ https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8?cp=en
 #EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/Realmadrid-TV.jpg" group-title="Sports",Real Madrid TV (2)
 http://protv.fun/play/live.php?mac=00:1A:79:51:A3:DB&stream=164076&extension=ts&play_token=7nk16od5oz
 
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tennis_Channel_logo.svg/220px-Tennis_Channel_logo.svg.png" group-title="Sports",Tennis Channel
+http://fl2.moveonjoy.com/TENNIS_CHANNEL/index.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tennis_Channel_logo.svg/220px-Tennis_Channel_logo.svg.png" group-title="Sports",Tennis Channel (UK/International)
+https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="MyCinema.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/My_Cinema_Logo_kedua.png/250px-My_Cinema_Logo_kedua.png" group-title="Movies",MyCinema
 http://210.210.155.37/uq2663/h/h192/index.m3u8
 
