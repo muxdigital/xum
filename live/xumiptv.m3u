@@ -27,6 +27,9 @@ https://stream.gia.tv/giatv/giatv-muxnewsnet/muxnewsnet/playlist.m3u8
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="MUX",MUX NewsNet
 https://stream.gia.tv/giatvplayout7/giatv-209306/playlist.m3u8
 
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxsportsnet-social0.png" group-title="MUX",MUX SportsNet
+https://stream.gia.tv/giatvplayout7/giatv-209395/playlist.m3u8
+
 #EXTINF:-1 tvg-id="()" tvg-logo="https://yt3.googleusercontent.com/XsBHQooEhdeBloLpCEbHaCui0LcQBYvmqPNm6y94AKhTEWiwNovyFBidiuehXPPGdZxVtso4rw=s300-c-k-c0x00ffffff-no-rj" group-title="News",Jevara PH
 https://ythls-v3.onrender.com/channel/UCguYll1CFyQW4Salbfp8oBA.m3u8
 
