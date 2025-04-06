@@ -3,41 +3,60 @@
 #EXTINF:-1 tvg-id="()" tvg-name="XUM",XUM
 https://archive.org/download/nou-mainident/NOU-mainident-360p.ts
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX (LIVE)
-https://ssh101stream.ssh101.com/akamaissh101/ssh101/noutv1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX (LIVE 2)
-https://stream.gia.tv/giatv/giatv-muxtvnet/muxtvnet/playlist.m3u8
-
 #EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxtvnet/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX (OPT-2)
 https://stream.gia.tv/giatvplayout7/giatv-209297/playlist.m3u8
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan (LIVE)
-https://ssh101stream.ssh101.com/akamaissh101/ssh101/catchub1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan (LIVE 2)
-https://stream.gia.tv/giatv/giatv-muxtvnet/muxchjuan/playlist.m3u8
+#EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX (OPT-3)
+https://stream.gia.tv/giatv/giatv-muxtvnet/muxtvnet/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxjuan/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan (OPT-2)
 https://stream.gia.tv/giatvplayout7/giatv-209323/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan (OPT-3)
+https://stream.gia.tv/giatv/giatv-muxchjuan/muxchjuan/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxdos-social0.png" group-title="MUX",MUX Dos
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxdos/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxdos-social0.png" group-title="MUX",MUX Dos
 https://stream.gia.tv/giatvplayout7/giatv-209333/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxtres-social0.png" group-title="MUX",MUX Tres
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxtres/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxtres-social0.png" group-title="MUX",MUX Tres
 https://stream.gia.tv/giatvplayout7/giatv-209353/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxten-social0.png" group-title="MUX",MUX Ten
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxten/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxten-social0.png" group-title="MUX",MUX Ten
 https://stream.gia.tv/giatvplayout7/giatv-209362/playlist.m3u8
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnews-social0.png" group-title="MUX",MUX News (LIVE)
-https://stream.gia.tv/giatv/giatv-muxnewsnet/muxnewsnet/playlist.m3u8
-
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="MUX",MUX NewsNet
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxnewsnet/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="MUX",MUX NewsNet (OPT-2)
 https://stream.gia.tv/giatvplayout7/giatv-209306/playlist.m3u8
 
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="MUX",MUX NewsNet (OPT-3)
+https://stream.gia.tv/giatv/giatv-muxnewsnet/muxnewsnet/playlist.m3u8
+
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxsportsnet-social0.png" group-title="MUX",MUX SportsNet
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxsportsnet/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxsportsnet-social0.png" group-title="MUX",MUX SportsNet (OPT-2)
 https://stream.gia.tv/giatvplayout7/giatv-209395/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxmovies-social0.png" group-title="MUX",MUX Movies
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxmovies/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://yt3.googleusercontent.com/XsBHQooEhdeBloLpCEbHaCui0LcQBYvmqPNm6y94AKhTEWiwNovyFBidiuehXPPGdZxVtso4rw=s300-c-k-c0x00ffffff-no-rj" group-title="News",Jevara PH
 https://ythls-v3.onrender.com/channel/UCguYll1CFyQW4Salbfp8oBA.m3u8
