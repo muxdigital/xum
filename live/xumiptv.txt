@@ -4,6 +4,9 @@
 https://archive.org/download/nou-mainident/NOU-mainident-360p.ts
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX (LIVE)
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/noutv1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX (LIVE 2)
 https://stream.gia.tv/giatv/giatv-muxtvnet/muxtvnet/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX
