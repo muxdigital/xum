@@ -24,19 +24,19 @@ https://stream.gia.tv/giatv/giatv-muxchjuan/muxchjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxdos-social0.png" group-title="MUX",MUX Dos
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxdos/playlist.m3u8
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxdos-social0.png" group-title="MUX",MUX Dos
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxdos-social0.png" group-title="MUX",MUX Dos (OPT-2)
 https://stream.gia.tv/giatvplayout7/giatv-209333/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxtres-social0.png" group-title="MUX",MUX Tres
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxtres/playlist.m3u8
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxtres-social0.png" group-title="MUX",MUX Tres
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxtres-social0.png" group-title="MUX",MUX Tres (OPT-2)
 https://stream.gia.tv/giatvplayout7/giatv-209353/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxten-social0.png" group-title="MUX",MUX Ten
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxten/playlist.m3u8
 
-#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxten-social0.png" group-title="MUX",MUX Ten
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxten-social0.png" group-title="MUX",MUX Ten (OPT-2)
 https://stream.gia.tv/giatvplayout7/giatv-209362/playlist.m3u8
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="MUX",MUX NewsNet
