@@ -15,6 +15,9 @@ https://stream.gia.tv/giatvplayout7/giatv-209297/playlist.m3u8
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan (LIVE)
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/catchub1/playlist.m3u8
 
+#EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan (LIVE 2)
+https://stream.gia.tv/giatv/giatv-muxtvnet/muxchjuan/playlist.m3u8
+
 #EXTINF:-1 tvg-id="()" tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="MUX",MUX Juan
 https://stream.gia.tv/giatvplayout7/giatv-209323/playlist.m3u8
 
