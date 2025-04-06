@@ -15,7 +15,7 @@
 
   if (Hls.isSupported()) {
     var hls = new Hls();
-    hls.loadSource('https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxnewsnet/playlist.m3u8');
+    hls.loadSource('https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxmovies/playlist.m3u8');
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
