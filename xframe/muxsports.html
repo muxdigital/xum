@@ -15,7 +15,7 @@
 
   if (Hls.isSupported()) {
     var hls = new Hls();
-    hls.loadSource('https://stream.gia.tv/giatvplayout7/giatv-209412/playlist.m3u8');
+    hls.loadSource('https://stream.gia.tv/giatvplayout7/giatv-209395/playlist.m3u8');
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
