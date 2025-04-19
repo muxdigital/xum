@@ -17,11 +17,11 @@ https://stream.zeno.fm/vsyae4e0rzzuv
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/4ufm-social0.png" group-title="RAUX Channels" radio="true",RAUX - 4UFM
 https://stream.zeno.fm/pqfuieivnh8tv
 
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-jeepfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - JEEP FM
+https://rbx2.hnux.com:443/http://e14086.cloudrad.io:8910/RAUX_JEEPFM
+
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-koolfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Kool FM
 https://stream.zeno.fm/v0eouk6gimyvv
-
-#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-jeepfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - JEEP FM
-https://stream.zeno.fm/pqfuieivnh8tv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-baifm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Bai FM
 https://stream.zeno.fm/h0h75pzhvzzuv
