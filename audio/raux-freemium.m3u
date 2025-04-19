@@ -5,112 +5,115 @@ https://archive.org/download/offline-videos/Music-Interlude-Break-RAUx.mp3
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="*" radio="true",IF YOU'RE GOING TO LISTEN TO AUDACY-OWNED STATIONS AND SOME STATIONS OWNED BY CUMULUS AND EMMIS WITH THE [GBLK] (GEOBLOCK) TAG, USE VPN AND CHOOSE U.S. SERVER.
 https://archive.org/download/offline-videos/Music-Interlude-Break-RAUx.mp3
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bvFR1YB/raudio-juanfm-social0.png" group-title="Raudio Channels" radio="true",Raudio Juan FM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/1stfmph-social0.png" group-title="RAUX Channels" radio="true",RAUX - 1STFM
 https://stream.zeno.fm/cby0f3nyrzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yfVvBj3/raudio-2dayfm-social0.png" group-title="Raudio Channels" radio="true",Raudio 2DAY FM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-2dayfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - 2DAY FM
 https://stream.zeno.fm/u9vsqkg4v68uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/M7KNG9b/raudio-hotfm-social0.png" group-title="Raudio Channels" radio="true",Raudio Hot FM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-hotfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Hot FM
 https://stream.zeno.fm/vsyae4e0rzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/LhMc4j9/raudio-koolfm-social0.png" group-title="Raudio Channels" radio="true",Raudio Kool FM
-https://stream.zeno.fm/v0eouk6gimyvv
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HhvTKt7/raudio-jeepfm-social0.png" group-title="Raudio Channels" radio="true",Raudio JEEP FM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/4ufm-social0.png" group-title="RAUX Channels" radio="true",RAUX - 4UFM
 https://stream.zeno.fm/pqfuieivnh8tv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NXPzT6/raudio-baifm-social0.png" group-title="Raudio Channels" radio="true",Raudio Bai FM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-koolfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Kool FM
+https://stream.zeno.fm/v0eouk6gimyvv
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-jeepfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - JEEP FM
+https://stream.zeno.fm/pqfuieivnh8tv
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-baifm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Bai FM
 https://stream.zeno.fm/h0h75pzhvzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/vzgwYvF/raudio-lyte-social0.png" group-title="Raudio Channels" radio="true",Raudio Lyte
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-lyte-social0.png" group-title="RAUX Channels" radio="true",RAUX - Lyte FM
 https://stream.zeno.fm/3gqax3dfq2zuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/LPHnwjp/raudio-lytetunes-social0.png" group-title="Raudio Channels" radio="true",Raudio Lyte Tunes
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-lytetunes-social0.png" group-title="RAUX Channels" radio="true",RAUX - Lyte Tunes
 https://stream.zeno.fm/qtfuv7x7icquv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Dp5C40d/raudio-htz-social0.png" group-title="Raudio Channels" radio="true",Raudio HTZ
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-htz-social0.png" group-title="RAUX Channels" radio="true",RAUX - HTZ FM
 https://stream.zeno.fm/h1qd730s01zuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PZHtGjD/raudio-plus-social0.png" group-title="Raudio Channels" radio="true",Raudio Plus
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/noufm-social0.png" group-title="RAUX Channels" radio="true",RAUX - NOU FM
 https://stream.zeno.fm/achfmxusa2zuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/WBcR9SB/raudio-kiix-social0.png" group-title="Raudio Channels" radio="true",Raudio KIIX
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-kiix-social0.png" group-title="RAUX Channels" radio="true",RAUX - KIIX FM
 https://stream.zeno.fm/w12n054b468uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/W2Rw46C/raudio-mixx-social0.png" group-title="Raudio Channels" radio="true",Raudio MIXX
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-mixx-social0.png" group-title="RAUX Channels" radio="true",RAUX - MIXX FM
 https://stream.zeno.fm/zkcou6tss6ouv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ckbcrss/raudio-ten-social0.png" group-title="Raudio Channels" radio="true",Raudio Ten FM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/muxten-social0.png" group-title="RAUX Channels" radio="true",RAUX - Ten FM
 https://stream.zeno.fm/19pshy6hvzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/y5j3Dvz/raudio-gold-social0.png" group-title="Raudio Channels" radio="true",Raudio Gold
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-gold-social0.png" group-title="RAUX Channels" radio="true",RAUX - Gold FM
 https://stream.zeno.fm/ec2mvebxy68uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/txxbmKk/raudio-club-social0.png" group-title="Raudio Channels" radio="true",Raudio Club
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-club-social0.png" group-title="RAUX Channels" radio="true",RAUX - Club FM
 https://stream.zeno.fm/dx6vqb2wty8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nmjHx62/raudio-pwr-social0.png" group-title="Raudio Channels" radio="true",Raudio PWR
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-pwr-social0.png" group-title="RAUX Channels" radio="true",RAUX - PWR
 https://stream.zeno.fm/2b2uun5b468uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/C7bxMRL/raudio-dbeat-social0.png" group-title="Raudio Channels" radio="true",Raudio The Beat
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-dbeat-social0.png" group-title="RAUX Channels" radio="true",RAUX - The Beat
 https://stream.zeno.fm/axputek5qy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/GCNNd3G/raudio-alt-social0.png" group-title="Raudio Channels" radio="true",Raudio ALT
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-alt-social0.png" group-title="RAUX Channels" radio="true",RAUX - ALT
 https://stream.zeno.fm/uswxmhr5qy8uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/mJc4DmK/raudio-loop-social0.png" group-title="Raudio Channels" radio="true",Raudio Loop
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-loop-social0.png" group-title="RAUX Channels" radio="true",RAUX - Loop FM
 https://stream.zeno.fm/rnpcnfdfymzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VMcM6JM/raudio-ezfm-social0.png" group-title="Raudio Channels" radio="true",Raudio EZFM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-ezfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - EZFM
 https://stream.zeno.fm/vggfq32ck48uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/vHc25Z1/raudio-dsound-social0.png" group-title="Raudio Channels" radio="true",Raudio The Sound
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-dsound-social0.png" group-title="RAUX Channels" radio="true",RAUX - The Sound
 https://stream.zeno.fm/ms1qs6dkupbvv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4W2zt3z/raudio-indx-social0.png" group-title="Raudio Channels" radio="true",Raudio iNDX
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-indx-social0.png" group-title="RAUX Channels" radio="true",RAUX - iNDX
 https://stream.zeno.fm/cih6w5bkh3svv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7n2xKZg/raudio-rnbr-social0.png" group-title="Raudio Channels" radio="true",Raudio Rhythm and Beats
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-rnbr-social0.png" group-title="RAUX Channels" radio="true",RAUX - Rhythm and Beats
 https://stream.zeno.fm/2t0sm5w9zmzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nczSwpj/raudio-soulfm-social0.png" group-title="Raudio Channels" radio="true",Raudio Soul FM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-soulfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Soul FM
 https://stream.zeno.fm/skz9nq4oenwtv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gSPkvC3/raudio-altx-social0.png" group-title="Raudio Channels" radio="true",Raudio ALTx
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-altx-social0.png" group-title="RAUX Channels" radio="true",RAUX - ALTx
 https://stream.zeno.fm/q6ajegn25ratv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/JssSdX7/raudio-rockxp-social0.png" group-title="Raudio Channels" radio="true",Raudio RockXP
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-rockxp-social0.png" group-title="RAUX Channels" radio="true",RAUX - RockXP
 https://stream.zeno.fm/tipjvqbpmgotv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/r62F4q6/muxnewsnet-social0.png" group-title="Raudio Channels" radio="true",MUX NewsNet
-https://stream.zeno.fm/2hyu6hv2bzzuv
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MghTT8s/mnx-social0.png" group-title="Raudio Channels" radio="true",MNX
-https://stream.zeno.fm/5uqbq022cy8uv
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/qn0R0w3/mux-bznet-social0.png" group-title="Raudio Channels" radio="true",MUX BZNet
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-plus-social0.png" group-title="RAUX Channels" radio="true",RAUX - Plus FM
 https://stream.zeno.fm/6lx1lnjwvvsuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wsdD76g/24sn-social0.png" group-title="Raudio Channels" radio="true",24SN
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="RAUX Channels" radio="true",MUX NewsNet
+https://stream.zeno.fm/2hyu6hv2bzzuv
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mnx-social0.png" group-title="RAUX Channels" radio="true",MNX
+https://stream.zeno.fm/5uqbq022cy8uv
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mux-bznet-social0.png" group-title="RAUX Channels" radio="true",MUX BZNet
+https://stream.zeno.fm/xuz0q702cy8uv
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/24sn-social0.png" group-title="RAUX Channels" radio="true",24SN
 https://stream.zeno.fm/baemze0kcc9uv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/sqPQch5/24snx-social0.png" group-title="Raudio Channels" radio="true",24SNx
-https://stream.zeno.fm/b1ghr812cy8uv
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/9N3Vqt9/muxjuan-social0.png" group-title="Raudio Channels" radio="true",NewsJuan
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="RAUX Channels" radio="true",MUX NewsJuan
 https://stream.zeno.fm/33ztywrzdzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5x25gQG/muxdos-social0.png" group-title="Raudio Channels" radio="true",NewsDos
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxdos-social0.png" group-title="RAUX Channels" radio="true",MUX NewsDos
 https://stream.zeno.fm/gbs88gzzdzzuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hB9C9Sv/muxtres-social0.png" group-title="Raudio Channels" radio="true",NewsTres Buletin
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxtres-social0.png" group-title="RAUX Channels" radio="true",MUX NewsTres Buletin
 https://stream.zeno.fm/0qavarzyx1zuv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wrpFMQX/muxsportsnet-social0.png" group-title="Raudio Channels" radio="true",MUX SportsNet
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxsportsnet-social0.png" group-title="RAUX Channels" radio="true",MUX SportsNet
 https://stream.zeno.fm/28te2pa0afhvv
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6P8gncv/ikastraudio-social4.png" group-title="Raudio Channels" radio="true",Raudio Live
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/freemium-choice/raux-social1.png" group-title="RAUX Channels" radio="true",RAUX Live
 https://stream.zeno.fm/yg6051tskm0uv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SXvQNR2f/raux-social1.png" group-title="Freemium Choice" radio="true",RAUX 70s

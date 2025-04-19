@@ -87,7 +87,7 @@ https://stream.zeno.fm/q6ajegn25ratv
 https://stream.zeno.fm/tipjvqbpmgotv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-plus-social0.png" group-title="RAUX Channels" radio="true",RAUX - Plus FM
-https://stream.zeno.fm/b1ghr812cy8uv
+https://stream.zeno.fm/6lx1lnjwvvsuv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="RAUX Channels" radio="true",MUX NewsNet
 https://stream.zeno.fm/2hyu6hv2bzzuv
@@ -96,7 +96,7 @@ https://stream.zeno.fm/2hyu6hv2bzzuv
 https://stream.zeno.fm/5uqbq022cy8uv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mux-bznet-social0.png" group-title="RAUX Channels" radio="true",MUX BZNet
-https://stream.zeno.fm/6lx1lnjwvvsuv
+https://stream.zeno.fm/xuz0q702cy8uv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/24sn-social0.png" group-title="RAUX Channels" radio="true",24SN
 https://stream.zeno.fm/baemze0kcc9uv
