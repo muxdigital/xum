@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/id/transvision.co.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/mewatch.sg.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ye-en/osn.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz"
 
 #EXTINF:-1 tvg-id="()" tvg-name="AXCS",AXCS
-https://archive.org/download/nou-mainident/NOU-mainident-360p.ts
+https://archive.org/download/mux-tv/MUX-TV.ts
 
 #EXTINF:-1 tvg-id="()" tvg-logo="https://i.ibb.co/2BFg9pn/mux-social0.png" tvg-name="MUX" group-title="MUX",MUX (LIVE)
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/muxtvnet/playlist.m3u8
