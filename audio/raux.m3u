@@ -1773,6 +1773,12 @@ http://ice23.securenetsystems.net/WINK106
 #EXTINF:-1 tvg-logo="https://pwaimg.listenlive.co/WIBQFM_886621_config_station_logo_image_1487956620.png" group-title="US Radio" radio="true",WIBQ | Terre Haute, Indiana
 https://playerservices.streamtheworld.com/api/livestream-redirect/WIBQFMAAC.aac
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/85/KROC-AM_logo.png" group-title="US Radio" radio="true",KROC 1340AM/96.9FM | Rochester, Minnesota
+https://live.amperwave.net/direct/townsquare-krocamaac-ibc3
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/KROC_106.9KROC_logo.png" group-title="US Radio" radio="true",106.9 KROC FM | Rochester, Minnesota
+https://live.amperwave.net/direct/townsquare-krocfmaac-ibc3
+
 #EXTINF:-1 tvg-logo="https://salemmedia.com/wp-content/uploads/2019/10/amfmKHNR_Answer_hires.jpg" group-title="US Radio" radio="true",The Answer AM690/FM94.3 | Hawaii
 https://playerservices.streamtheworld.com/api/livestream-redirect/KHNRAMAAC.aac
 
