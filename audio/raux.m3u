@@ -137,9 +137,6 @@ https://stream.zeno.fm/pkbwgm92f78uv
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Magic89.9_logo.gif/220px-Magic89.9_logo.gif" group-title="PH Radio" radio="true",Magic 89.9
 https://stream.zeno.fm/sh37pvfd938uv
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/99.5_Play_FM.png/200px-99.5_Play_FM.png" group-title="PH Radio" radio="true",99.5 Play FM
-https://richwel.serv00.net/twitcher.php?channel=995playfm&quality=audio_only
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3
 https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/jam883
 
@@ -688,6 +685,12 @@ https://fr1.amfmph.com:8128/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/819DXUM_LOGO_BLACK.png/220px-819DXUM_LOGO_BLACK.png" group-title="PH Radio" radio="true",DXUM 819 Davao
 https://fr1.amfmph.com/ssl/dxumdavao?mp=/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ab/995XFMManila.jpg" group-title="PH Radio" radio="true",99.5 XFM Manila
+https://us2.amfmph.com:5000/stream?type=.aac
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ab/995XFMManila.jpg" group-title="PH Radio" radio="true",99.5 XFM Manila (Opt-2)
+https://gra10.hnux.com:44/http://e15857.cloudrad.io:8990/DWRTFM
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Davao (97.9 Davao / 100.7 Tagum)
 https://us1.amfmph.com/ssl/xfmdavao?mp=/stream
