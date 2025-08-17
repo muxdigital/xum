@@ -690,7 +690,7 @@ https://fr1.amfmph.com/ssl/dxumdavao?mp=/stream
 https://us2.amfmph.com:5000/stream?type=.aac
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ab/995XFMManila.jpg" group-title="PH Radio" radio="true",99.5 XFM Manila (Opt-2)
-https://gra10.hnux.com:443/http://e15857.cloudrad.io:8990/DWRTFM
+https://rbx2.hnux.com:443/http://e15857.cloudrad.io:8990/DWRTFM
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/82LDF96/xfm-ph-2024-300.png" group-title="PH Radio" radio="true",XFM Davao (97.9 Davao / 100.7 Tagum)
 https://us1.amfmph.com/ssl/xfmdavao?mp=/stream
