@@ -1172,6 +1172,9 @@ https://stream.revma.ihrhls.com/zc5322
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-at40classic.png" group-title="US Radio" radio="true",Classic American Top 40 | iHeart
 https://stream.revma.ihrhls.com/zc6545
 
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-at40classic90s2000s.png" group-title="US Radio" radio="true",Classic American Top 40 (90s and 2000s) | iHeart
+https://stream.revma.ihrhls.com/zc10423
+
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-50s.png" group-title="US Radio" radio="true",iHeart50s | iHeart
 https://stream.revma.ihrhls.com/zc6882
 
