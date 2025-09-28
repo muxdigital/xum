@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plyr + Azure Media DRM</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <!-- Include Azure Media Player (AMP) libraries -->
+    <link href="https://amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="https://amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+</head>
+<body>
+    <video id="myVideo" class="azuremediaplayer amp-default-skin" controls width="640" height="360" data-setup='{"nativeControlsForTouch": false}'>
+</video>
+
+    <script>
+        // Initialize Azure Media Player with your DRM-protected content
+        var myPlayer = amp('myVideo', {
+            /* AMP options, including DRM configuration for your content */
+            "protectionInfo": [
+                {
+                    "type": "com.widevine.alpha",
+                    "authenticationToken": "https://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00" // Replace with your token
+                }
+            ],
+            "src": [
+                {
+                    "src": "https://161.49.17.2:6610/001/2/ch00000090990000001124/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", // Replace with your MPD URL
+                    "type": "application/dash+xml"
+                }
+            ]
+        });
+
+        // Initialize Plyr on the AMP video element
+        const player = new Plyr('#myVideo');
+    </script>
+</body>
+</html>
