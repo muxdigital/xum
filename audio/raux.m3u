@@ -48,10 +48,10 @@ https://stream.zeno.fm/zkcou6tss6ouv
 https://stream.zeno.fm/19pshy6hvzzuv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-gold-social0.png" group-title="RAUX Channels" radio="true",RAUX - Gold FM
-https://stream.zeno.fm/ec2mvebxy68uv
+https://stream.zeno.fm/dx6vqb2wty8uv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-club-social0.png" group-title="RAUX Channels" radio="true",RAUX - Club FM
-https://stream.zeno.fm/dx6vqb2wty8uv
+https://worldradio.online:443/proxy/?q=http://rauxnet.serv00.net:8910/RAUX_CLUBFM?type=.aac
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-pwr-social0.png" group-title="RAUX Channels" radio="true",RAUX - PWR
 https://stream.zeno.fm/2b2uun5b468uv
@@ -90,16 +90,16 @@ https://stream.zeno.fm/tipjvqbpmgotv
 https://stream.zeno.fm/6lx1lnjwvvsuv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxnewsnet-social0.png" group-title="RAUX Channels" radio="true",MUX NewsNet
-https://stream.zeno.fm/2hyu6hv2bzzuv
+https://stream.rcast.net/73331
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mnx-social0.png" group-title="RAUX Channels" radio="true",MNX
-https://stream.zeno.fm/5uqbq022cy8uv
+https://stream.rcast.net/72556
+
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/24sn-social0.png" group-title="RAUX Channels" radio="true",24SN
+https://stream.rcast.net/73373
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mux-bznet-social0.png" group-title="RAUX Channels" radio="true",MUX BZNet
 https://stream.zeno.fm/xuz0q702cy8uv
-
-#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/24sn-social0.png" group-title="RAUX Channels" radio="true",24SN
-https://stream.zeno.fm/baemze0kcc9uv
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/muxjuan-social0.png" group-title="RAUX Channels" radio="true",MUX NewsJuan
 https://stream.zeno.fm/33ztywrzdzzuv
