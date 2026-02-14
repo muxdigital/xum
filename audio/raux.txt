@@ -332,8 +332,8 @@ https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/rxcebu
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Monster_bt_995.png/revision/latest/scale-to-width-down/300?cb=20210616081547" group-title="PH Radio" radio="true",Monster BT99.5 Davao
 https://www.liveradio.es/http://sg-icecast.eradioportal.com:8000/monsterrx_davao
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Mellow_947.png/200px-Mellow_947.png" group-title="PH Radio" radio="true",Mellow
-https://www.liveradio.es/http://s3.free-shoutcast.com:18342/stream
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Mellow947fm.jpg/250px-Mellow947fm.jpg" group-title="PH Radio" radio="true",Mellow
+https://streamer.radio.co/sec36cd5f1/listen
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RadyoPilipinas1-logo.png/220px-RadyoPilipinas1-logo.png" group-title="PH Radio" radio="true",Radyo Pilipinas
 https://www.liveradio.es/http://58.97.187.52:5007/rp1
