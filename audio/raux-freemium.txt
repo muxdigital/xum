@@ -563,13 +563,13 @@ https://dxkt-rpnradio.radioca.st/stream
 #EXTINF:-1 tvg-logo="https://tunein.rpnradio.com/images/banners/zamboanga_b.png" group-title="PH Radio" radio="true",RPN Radyo Ronda Zamboanga
 https://dxxx-rpnradio.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/TeleRadyo_Serbisyo_logo.svg/250px-TeleRadyo_Serbisyo_logo.svg.png" group-title="PH Radio" radio="true",TeleRadyo (audio)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/DZMM_TeleRadyo.svg/250px-DZMM_TeleRadyo.svg.png" group-title="PH Radio" radio="true",DZMM TeleRadyo (audio)
 https://playerservices.streamtheworld.com/api/livestream-redirect/DZMMAAC_48.aac
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/DWPM_Radyo_Sais_Trenta.svg/220px-DWPM_Radyo_Sais_Trenta.svg.png" group-title="PH Radio" radio="true",Radyo 630
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/DZMM_630_2025.svg/250px-DZMM_630_2025.svg.png" group-title="PH Radio" radio="true",DZMM Radyo Patrol 630
 https://us1.amfmph.com/ssl/radyo630?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/DWPM_Radyo_Sais_Trenta.svg/220px-DWPM_Radyo_Sais_Trenta.svg.png" group-title="PH Radio" radio="true",Radyo 630 (Opt-2)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/DZMM_630_2025.svg/250px-DZMM_630_2025.svg.png" group-title="PH Radio" radio="true",DZMM Radyo Patrol 630 (Opt-2)
 https://www.liveradio.es/http://us1.amfmph.com:8852/stream
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e3/MOR_ENT_LOGO.png/revision/latest/scale-to-width-down/270?cb=20210429094722" group-title="PH Radio" radio="true",MOR
@@ -1006,6 +1006,9 @@ https://stream.revma.ihrhls.com/zc10231
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-247news.png" group-title="US Radio" radio="true",24/7 News | iHeart
 https://stream.revma.ihrhls.com/zc6043
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-247sports.png" group-title="US Radio" radio="true",24/7 Sports | iHeart
+https://stream.revma.ihrhls.com/zc11340
 
 #EXTINF:-1 tvg-logo="https://cdn.player.fm/images/18330340/series/fAP7lhwW5zBFy69n/256.jpg" group-title="US Radio" radio="true",Sean Hannity Show (Conservative Talk) | iHeart
 https://stream.revma.ihrhls.com/zc6706
