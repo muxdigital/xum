@@ -1,0 +1,81 @@
+.html,.body{
+    margin: 0;
+}
+.video-js .vjs-control{
+    width: 3.5em;
+}
+.video-js .vjs-control-bar{
+    background-color: transparent;
+    background-image: linear-gradient(#00000000 0%, 60%, #000000d5);
+    font-size: 16px;
+}
+.vjs-quality-selector .vjs-menu-content{ font-size: 0.65rem; }
+.custom-volume-button
+{
+    width: 1px;
+    height: 1px;
+    font-family: VideoJS;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    z-index: 2;
+    bottom: 39px;
+    right: 58px;
+    color: #FFF;
+    font-size: 16px;
+    font-size: 1.8em;
+    text-shadow: 0px 0px 4px #000;
+}
+.custom-volume-button::before
+{
+    content: "\f104";
+}
+.video-js .vjs-volume-vertical{
+    background-color: transparent;
+}
+.vjs-volume-bar.vjs-slider-vertical{
+    height: 4em;
+    margin: 3.35em auto
+}
+.vjs-slider-vertical .vjs-volume-level{
+    width: 0.35em;
+    background-color: #0079fd;
+}
+.OfflineImage{
+    display: none;
+    position:absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif,Arial;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background: rgb(0,24,51);
+    background: radial-gradient(circle, rgba(0,24,51,1) 25%, rgba(8,42,79,1) 100%);
+    text-transform: uppercase;
+    background-size: cover;
+}
+.OfflineImage > span{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    text-shadow: -1px 1px 4px #888;
+}
+
+
+.player-container{
+    display: flex;
+    width: 100%;
+}
+.video-js{
+    flex: 2 1 auto;
+}
+.vjs-playlist {
+    flex: 1 2 auto;
+    overflow-y: scroll;
+    height: 100vh;
+}
