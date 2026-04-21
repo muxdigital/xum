@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MUX PLAYER</title>
+<!-- Plyr CSS -->
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<style type="text/css">
+body
+ { background-color: #000000; }
+.video-container {
+  position: fixed;
+  top: 10;
+  left: 10;
+  width: 848px;
+  height: 480px;
+  z-index: 0;
+  background: #000;
+}
+.video-js {
+    position: fixed; /* Or absolute, based on your container */
+    top: 10;
+    left: 10;
+    width: 848px;
+    height: 480px;
+}
+.channel-list {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 101; /* Above player */
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+.channel-item { 
+cursor: pointer;
+color: #ffffff;
+font-family: Arial; 
+border: 2px solid red;
+}
+</style>
+
+  </head>
+  <body>
+
+
+<!-- Player Element -->
+<div class="video-container">
+<video id="player" controls playsinline></video>
+</div>
+
+<!-- Channel List -->
+<div class="channel-list">
+    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209297/playlist.m3u8">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxworld-logo-i1.png" width="100"><br>
+    <span>MUX World</span>
+    </div>
+    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209323/playlist.m3u8">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxjuan-logo-i1.png" width="100"><br>
+    <span>MUX Juan</span>
+    </div>
+    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209333/playlist.m3u8">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxdos-logo-i1.png" width="100"><br>
+    <span>MUX Dos</span>
+    </div>
+    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209362/playlist.m3u8">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxlife-logo-i1.png" width="100"><br>
+    <span>MUX Life</span>
+    </div>
+    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209306/playlist.m3u8">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxnews-logo-i1.png" width="100"><br>
+    <span>MUX News</span>
+    </div>
+    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209412/playlist.m3u8">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxmovies-logo-i1.png" width="100"><br>
+    <span>MUX Movies</span>
+    </div>
+    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209395/playlist.m3u8">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxsports-logo-i1.png" width="100"><br>
+    <span>MUX Sports</span>
+    </div>
+</div>
+
+<!-- Hls.js and Plyr JS -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const video = document.getElementById('player');
+        const source = video.querySelector('source') ? video.querySelector('source').src : '';
+        const defaultSource = 'https://live20.bozztv.com/giatvplayout7/giatv-209297/playlist.m3u8';
+        
+        // Initialize Plyr
+        const player = new Plyr(video, {
+            captions: { active: true, update: true, language: 'en' },
+        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+        autoplay: true
+        });
+
+        // Initialize Hls.js
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(defaultSource);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                video.play();
+            });
+
+            // Channel Switching Logic
+            document.querySelectorAll('.channel-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const newSrc = item.getAttribute('data-src');
+                    hls.loadSource(newSrc);
+                    hls.attachMedia(video);
+                });
+            });
+        } else {
+            // Fallback for native HLS (Safari)
+            video.src = defaultSource;
+        }
+    });
+</script>
+  </body>
+</html>
