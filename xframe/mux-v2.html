@@ -17,68 +17,51 @@ body
   z-index: 0;
   background: #000;
 }
-.video-js {
-    position: fixed; /* Or absolute, based on your container */
-    top: 10;
-    left: 10;
-    width: 848px;
-    height: 480px;
-}
-.channel-list {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 101; /* Above player */
-    max-height: 80vh;
-    overflow-y: scroll;
-}
-.channel-item { 
-cursor: pointer;
-color: #ffffff;
-font-family: Arial; 
-border: 2px solid red;
-}
+    /* Horizontal Playlist CSS */
+    .channel-list { display: flex; text-align: center; overflow-x: auto; gap: 10px; padding: 10px; }
+    .channel-item { cursor: pointer; width: 100px; text-align: center; color: #ffffff; font-family: Arial; border: 2px solid red; }
+    .channel-item img { width: 100%; height: auto; display: block; }
 </style>
 
   </head>
   <body>
 
 
-<!-- Player Element -->
-<div class="video-container">
-<video id="player" controls playsinline></video>
-</div>
-
 <!-- Channel List -->
 <div class="channel-list">
     <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209297/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxworld-logo-i1.png" width="100"><br>
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxworld-logo-i1.png"><br>
     <span>MUX World</span>
     </div>
     <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209323/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxjuan-logo-i1.png" width="100"><br>
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxjuan-logo-i1.png"><br>
     <span>MUX Juan</span>
     </div>
     <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209333/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxdos-logo-i1.png" width="100"><br>
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxdos-logo-i1.png"><br>
     <span>MUX Dos</span>
     </div>
     <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209362/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxlife-logo-i1.png" width="100"><br>
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxlife-logo-i1.png"><br>
     <span>MUX Life</span>
     </div>
     <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209306/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxnews-logo-i1.png" width="100"><br>
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxnews-logo-i1.png"><br>
     <span>MUX News</span>
     </div>
     <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209412/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxmovies-logo-i1.png" width="100"><br>
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxmovies-logo-i1.png"><br>
     <span>MUX Movies</span>
     </div>
     <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209395/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxsports-logo-i1.png" width="100"><br>
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxsports-logo-i1.png"><br>
     <span>MUX Sports</span>
     </div>
+</div>
+
+<!-- Player Element -->
+<div class="video-container">
+<video id="player" controls playsinline></video>
 </div>
 
 <!-- Hls.js and Plyr JS -->
