@@ -12,8 +12,8 @@ body
   position: fixed;
   top: 10;
   left: 10;
-  width: 848px;
-  height: 480px;
+  width: 100%;
+  height: 100%;
   z-index: 0;
   background: #000;
 }
@@ -29,6 +29,10 @@ body
 
 <!-- Channel List -->
 <div class="channel-list">
+    <div class="channel-item" data-src="#">
+    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/mux-wrd1.png"><br>
+    <span>MUX PLAYER</span>
+    </div>
     <div class="channel-item" data-src="https://amd-mediator-eolq3tk4la-uk.a.run.app/cbs/map.m3u8?imafw__fw_vcid2=&imafw__fw_app_bundle=&imafw__fw_us_privacy=1YNY&attmas=not_determined&am.originUrl=https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FY2DMgfclT3S2nNxANeIawA%2Fmaster.m3u8&imafw_csid=desktop_web&imafw__fw_did=&imafw__fw_is_lat=&height=360&ip_addr=181.215.195.227&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=640&app_version=0.0.0">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfRv4frIAWJ3secOE97Z36L8mLdpVZ19S79yXdqFgjld2-SUNi4okYeqmzptCPK3IK2_Q&usqp=CAU" width="100"><br>
     <span>Inside Edition</span>
@@ -63,7 +67,7 @@ body
             pip: true,
             quality: {
                 default: 360,
-                options: [1080, 720, 576, 480, 360, 240, 144],
+                options: [360],
                 forced: true,
                 onChange: (e) => console.log(e)
            }
