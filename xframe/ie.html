@@ -29,38 +29,6 @@ body
 
 <!-- Channel List -->
 <div class="channel-list">
-    <div class="channel-item" data-src="https://live20.bozztv.com/akamaissh101/ssh101/muxtvnet/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxworld-logo-i1.png"><br>
-    <span>MUX World (LIVE)</span>
-    </div>
-    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209297/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxworld-logo-i1.png"><br>
-    <span>MUX World</span>
-    </div>
-    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209323/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxjuan-logo-i1.png"><br>
-    <span>MUX Juan</span>
-    </div>
-    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209333/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxdos-logo-i1.png"><br>
-    <span>MUX Dos</span>
-    </div>
-    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209362/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxlife-logo-i1.png"><br>
-    <span>MUX Life</span>
-    </div>
-    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209306/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxnews-logo-i1.png"><br>
-    <span>MUX News</span>
-    </div>
-    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209412/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxmovies-logo-i1.png"><br>
-    <span>MUX Movies</span>
-    </div>
-    <div class="channel-item" data-src="https://live20.bozztv.com/giatvplayout7/giatv-209395/playlist.m3u8">
-    <img src="https://github.com/muxdigital/xum/raw/feed/img/mux/muxsports-logo-i1.png"><br>
-    <span>MUX Sports</span>
-    </div>
     <div class="channel-item" data-src="https://amd-mediator-eolq3tk4la-uk.a.run.app/cbs/map.m3u8?imafw__fw_vcid2=&imafw__fw_app_bundle=&imafw__fw_us_privacy=1YNY&attmas=not_determined&am.originUrl=https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FY2DMgfclT3S2nNxANeIawA%2Fmaster.m3u8&imafw_csid=desktop_web&imafw__fw_did=&imafw__fw_is_lat=&height=360&ip_addr=181.215.195.227&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=640&app_version=0.0.0">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfRv4frIAWJ3secOE97Z36L8mLdpVZ19S79yXdqFgjld2-SUNi4okYeqmzptCPK3IK2_Q&usqp=CAU" width="100"><br>
     <span>Inside Edition</span>
@@ -84,7 +52,7 @@ body
     document.addEventListener('DOMContentLoaded', () => {
         const video = document.getElementById('player');
         const source = video.querySelector('source') ? video.querySelector('source').src : '';
-        const defaultSource = 'https://live20.bozztv.com/akamaissh101/ssh101/muxtvnet/playlist.m3u8';
+        const defaultSource = '#';
         
         // Initialize Plyr
         const player = new Plyr(video, {
