@@ -60,10 +60,10 @@
 
 <script>
   // Replace with your M3U playlist URL
-  const m3uUrl = 'https://example.com/playlist.m3u';
+  const m3uUrl = 'https://github.com/muxdigital/xum/raw/feed/audio/raux.m3u';
   
   // Use a CORS proxy if the external server blocks browser requests
-  const useCorsProxy = false; 
+  const useCorsProxy = true; 
   const fetchUrl = useCorsProxy ? `https://api.allorigins.win/raw?url=${encodeURIComponent(m3uUrl)}` : m3uUrl;
 
   const selectEl = document.getElementById('stationSelect');
