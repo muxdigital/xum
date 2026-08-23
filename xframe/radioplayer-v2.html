@@ -74,17 +74,16 @@
       text-overflow: ellipsis;
     }
     .song-title {
-      font-size: 1.05rem;
-      font-weight: bold;
-      color: #aaa;
+      font-size: 0.9rem;
+      color: #00f2fe;
+      margin-top: 3px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
     .artist-name {
-      font-size: 0.85rem;
-      color: #00f2fe;
-      margin-top: 3px;
+      font-size: 0.8rem;
+      color: #aaa;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -192,7 +191,7 @@
 
   function populateSelect(stations) {
     if (stations.length === 0) {
-      statusEl.textContent = 'No stations found in local playlist.';
+      statusEl.textContent = 'No stations found in playlist.';
       return;
     }
 
@@ -218,7 +217,7 @@
   // Update Song Title and Artist UI elements
   function updateMetadata(rawString, stationFallback) {
     if (!rawString) {
-      stationNameEl.textContent = 'Select Station';
+      stationNameEl.textContent = stationTitle;
       songTitleEl.textContent = stationFallback;
       artistNameEl.textContent = 'Live Broadcast';
       return;
