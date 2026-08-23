@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plyr Web Radio (In-Stream ICY & HLS Metadata)</title>
+
+  <!-- Plyr CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #121212;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .player-card {
+      background: #1e1e1e;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #2a2a2a;
+      color: #fff;
+      font-size: 1rem;
+    }
+    .plyr {
+      border-radius: 8px;
+    }
+    
+    .station-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: #282828;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .station-logo {
+      width: 65px;
+      height: 65px;
+      border-radius: 8px;
+      object-fit: cover;
+      background-color: #333;
+      flex-shrink: 0;
+    }
+    .station-details {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    /* Station Name */
+    .station-name {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #888;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Song Title */
+    .song-title {
+      font-size: 1.05rem;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Artist Name */
+    .artist-name {
+      font-size: 0.85rem;
+      color: #00f2fe;
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    #status {
+      margin-top: 15px;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<div class="player-card">
+  <!-- Station Banner -->
+  <div class="station-info">
+    <img id="stationLogo" class="station-logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='65' height='65' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>" alt="Station Logo" />
+    <div class="station-details">
+      <div id="stationName" class="station-name">Station Name</div>
+      <div id="songTitle" class="song-title">Select a Station</div>
+      <div id="artistName" class="artist-name">---</div>
+    </div>
+  </div>
+  
+  <select id="stationSelect" disabled>
+    <option>Loading stations...</option>
+  </select>
+
+  <!-- Audio Element -->
+  <audio id="player" controls></audio>
+  
+  <div id="status">Loading playlist...</div>
+</div>
+
+<!-- Hls.js & Plyr CDN -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+<script>
+  const localM3uPath = 'https://raw.githubusercontent.com/muxdigital/xum/feed/audio/raux.m3u';
+  const fallbackLogo = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='65' height='65' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>";
+
+  const selectEl = document.getElementById('stationSelect');
+  const audioElement = document.getElementById('player');
+  const statusEl = document.getElementById('status');
+  
+  const logoEl = document.getElementById('stationLogo');
+  const stationNameEl = document.getElementById('stationName');
+  const songTitleEl = document.getElementById('songTitle');
+  const artistNameEl = document.getElementById('artistName');
+  
+  let stationsList = [];
+  let hlsInstance = null;
+  let icyAbortController = null;
+
+  const player = new Plyr(audioElement, {
+    controls: ['play', 'progress', 'current-time', 'mute', 'volume'],
+    tooltips: { controls: true, seek: false }
+  });
+
+  async function loadPlaylist() {
+    try {
+      const response = await fetch(localM3uPath);
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      const text = await response.text();
+      
+      stationsList = parseM3U(text);
+      populateSelect(stationsList);
+    } catch (err) {
+      statusEl.textContent = 'Error: Make sure playlist.m3u exists in the same folder.';
+      console.error(err);
+    }
+  }
+
+  function parseM3U(content) {
+    const lines = content.split(/\r?\n/);
+    const stations = [];
+    let currentTitle = '';
+    let currentLogo = '';
+
+    for (let line of lines) {
+      line = line.trim();
+      if (line.startsWith('#EXTINF:')) {
+        const logoMatch = line.match(/tvg-logo="([^"]+)"/i);
+        currentLogo = logoMatch ? logoMatch[1] : '';
+
+        const commaIdx = line.indexOf(',');
+        currentTitle = commaIdx !== -1 ? line.substring(commaIdx + 1) : 'Unknown Station';
+      } else if (line && !line.startsWith('#')) {
+        stations.push({
+          title: currentTitle || line,
+          logo: currentLogo,
+          url: line
+        });
+        currentTitle = '';
+        currentLogo = '';
+      }
+    }
+    return stations;
+  }
+
+  function populateSelect(stations) {
+    if (stations.length === 0) {
+      statusEl.textContent = 'No stations found in local playlist.';
+      return;
+    }
+
+    selectEl.innerHTML = '<option value="">-- Select a Station --</option>';
+    stations.forEach((station, index) => {
+      const option = document.createElement('option');
+      option.value = index;
+      option.textContent = station.title;
+      selectEl.appendChild(option);
+    });
+
+    selectEl.disabled = false;
+    statusEl.textContent = `Loaded ${stations.length} stations.`;
+  }
+
+  function getMimeType(url) {
+    const cleanUrl = url.split('?')[0].toLowerCase();
+    if (cleanUrl.endsWith('.m3u8')) return 'application/x-mpegURL';
+    if (cleanUrl.endsWith('.aac') || cleanUrl.endsWith('.aacp')) return 'audio/aac';
+    return 'audio/mp3';
+  }
+
+  // Parses stream title strings into distinct Song Title & Artist UI elements
+  function updateMetadata(rawString) {
+    if (!rawString) {
+      songTitleEl.textContent = 'Live Stream';
+      artistNameEl.textContent = 'Unknown Artist';
+      return;
+    }
+
+    // Standard stream format: "Artist - Song Title"
+    if (rawString.includes(' - ')) {
+      const parts = rawString.split(' - ');
+      artistNameEl.textContent = parts[0].trim();
+      songTitleEl.textContent = parts.slice(1).join(' - ').trim();
+    } else {
+      songTitleEl.textContent = rawString;
+      artistNameEl.textContent = 'Live Broadcast';
+    }
+  }
+
+  // Pure Client-side In-Stream ICY Metadata Reader for MP3/AAC
+  async function readIcyMetadataStream(streamUrl) {
+    if (icyAbortController) icyAbortController.abort();
+    icyAbortController = new AbortController();
+
+    try {
+      const response = await fetch(streamUrl, {
+        headers: { 'Icy-MetaData': '1' },
+        signal: icyAbortController.signal
+      });
+
+      const metaInt = parseInt(response.headers.get('icy-metaint'));
+      if (!metaInt) return; // Stream does not send inline ICY frames
+
+      const reader = response.body.getReader();
+      let byteBuffer = new Uint8Array(0);
+      let bytesUntilMeta = metaInt;
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        // Append incoming stream chunk
+        const temp = new Uint8Array(byteBuffer.length + value.length);
+        temp.set(byteBuffer, 0);
+        temp.set(value, byteBuffer.length);
+        byteBuffer = temp;
+
+        while (byteBuffer.length >= bytesUntilMeta + 1) {
+          // Meta length byte multiplied by 16 gives metadata byte size
+          const metaLen = byteBuffer[bytesUntilMeta] * 16;
+          
+          if (byteBuffer.length >= bytesUntilMeta + 1 + metaLen) {
+            if (metaLen > 0) {
+              const metaBytes = byteBuffer.slice(bytesUntilMeta + 1, bytesUntilMeta + 1 + metaLen);
+              const metaString = new TextDecoder('utf-8').decode(metaBytes);
+              const match = metaString.match(/StreamTitle='([^']*)';/);
+              if (match && match[1]) {
+                updateMetadata(match[1]);
+              }
+            }
+            // Remove processed chunk from buffer
+            byteBuffer = byteBuffer.slice(bytesUntilMeta + 1 + metaLen);
+            bytesUntilMeta = metaInt;
+          } else {
+            break; // Wait for more data
+          }
+        }
+      }
+    } catch (err) {
+      if (err.name !== 'AbortError') console.log('ICY parsing stopped or unavailable.');
+    }
+  }
+
+  selectEl.addEventListener('change', (e) => {
+    const selectedIndex = e.target.value;
+
+    if (hlsInstance) {
+      hlsInstance.destroy();
+      hlsInstance = null;
+    }
+    if (icyAbortController) {
+      icyAbortController.abort();
+      icyAbortController = null;
+    }
+
+    if (selectedIndex === '') {
+      player.stop();
+      stationNameEl.textContent = 'Station Name';
+      songTitleEl.textContent = 'Select a Station';
+      artistNameEl.textContent = '---';
+      logoEl.src = fallbackLogo;
+      return;
+    }
+
+    const station = stationsList[selectedIndex];
+    
+    // Line 1: Station Name (from M3U file)
+    stationNameEl.textContent = station.title;
+    
+    // Default initial values
+    songTitleEl.textContent = 'Connecting...';
+    artistNameEl.textContent = 'Live Stream';
+    
+    logoEl.src = station.logo || fallbackLogo;
+    logoEl.onerror = () => { logoEl.src = fallbackLogo; };
+
+    const streamUrl = station.url;
+    const mimeType = getMimeType(streamUrl);
+
+    // Play Stream via HLS.js or Native Plyr
+    if (mimeType === 'application/x-mpegURL') {
+      if (Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(streamUrl);
+        hlsInstance.attachMedia(audioElement);
+        
+        // Listen for ID3/HLS embedded metadata tags
+        hlsInstance.on(Hls.Events.FRAG_PARSING_METADATA, (event, data) => {
+          if (data.samples && data.samples.length > 0) {
+            const rawData = String.fromCharCode.apply(null, data.samples[0].data);
+            updateMetadata(rawData);
+          }
+        });
+
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => player.play());
+      } else if (audioElement.canPlayType('application/vnd.apple.mpegurl')) {
+        player.source = { type: 'audio', sources: [{ src: streamUrl, type: 'application/x-mpegURL' }] };
+        player.play();
+      }
+    } else {
+      player.source = { type: 'audio', sources: [{ src: streamUrl, type: mimeType }] };
+      player.play();
+
+      // Read embedded ICY bytes directly from stream
+      readIcyMetadataStream(streamUrl);
+    }
+  });
+
+  loadPlaylist();
+</script>
+
+</body>
+</html>
