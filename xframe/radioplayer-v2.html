@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plyr Web Radio (Internal M3U)</title>
+  <title>Plyr Web Radio (Metadata Display)</title>
 
   <!-- Plyr CSS CDN -->
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
@@ -42,7 +42,7 @@
       border-radius: 8px;
     }
     
-    /* Station Info Box & Logo Styling */
+    /* Metadata Display Box & Logo Styling */
     .station-info {
       display: flex;
       align-items: center;
@@ -63,19 +63,23 @@
     }
     .station-details {
       overflow: hidden;
+      width: 100%;
     }
-    .station-name {
-      font-size: 1.1rem;
+    .song-title {
+      font-size: 1.05rem;
       font-weight: bold;
       color: #fff;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
-    .track-status {
+    .artist-name {
       font-size: 0.85rem;
       color: #00f2fe;
       margin-top: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     
     #status {
@@ -88,12 +92,12 @@
 <body>
 
 <div class="player-card">
-  <!-- Station Banner -->
+  <!-- Station & Track Metadata Display -->
   <div class="station-info">
     <img id="stationLogo" class="station-logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>" alt="Station Logo" />
     <div class="station-details">
-      <div id="stationName" class="station-name">Select Station</div>
-      <div id="trackStatus" class="track-status">Offline</div>
+      <div id="songTitle" class="song-title">Select Station</div>
+      <div id="artistName" class="artist-name">---</div>
     </div>
   </div>
   
@@ -104,7 +108,7 @@
   <!-- Audio Element -->
   <audio id="player" controls></audio>
   
-  <div id="status">Loading playlist...</div>
+  <div id="status">Loading internal playlist...</div>
 </div>
 
 <!-- Hls.js & Plyr CDN -->
@@ -112,7 +116,7 @@
 <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
 
 <script>
-  // Path to your local M3U file relative to this HTML file
+  // Path to local M3U playlist file
   const localM3uPath = './raux.m3u';
 
   // SVG Fallback Logo
@@ -123,18 +127,18 @@
   const statusEl = document.getElementById('status');
   
   const logoEl = document.getElementById('stationLogo');
-  const stationNameEl = document.getElementById('stationName');
-  const trackStatusEl = document.getElementById('trackStatus');
+  const songTitleEl = document.getElementById('songTitle');
+  const artistNameEl = document.getElementById('artistName');
   
   let stationsList = [];
   let hlsInstance = null;
+  let metaInterval = null;
 
   const player = new Plyr(audioElement, {
     controls: ['play', 'progress', 'current-time', 'mute', 'volume'],
     tooltips: { controls: true, seek: false }
   });
 
-  // Direct fetch without CORS proxy
   async function loadPlaylist() {
     try {
       const response = await fetch(localM3uPath);
@@ -191,14 +195,52 @@
     });
 
     selectEl.disabled = false;
-    statusEl.textContent = `Loaded ${stations.length} local stations.`;
+    statusEl.textContent = `Loaded ${stations.length} stations.`;
   }
 
   function getMimeType(url) {
     const cleanUrl = url.split('?')[0].toLowerCase();
     if (cleanUrl.endsWith('.m3u8')) return 'application/x-mpegURL';
-    if (cleanUrl.endsWith('.aac') || cleanUrl.endsWith('.aacp')) return 'audio/aacp';
+    if (cleanUrl.endsWith('.aac') || cleanUrl.endsWith('.aacp')) return 'audio/aac';
     return 'audio/mp3';
+  }
+
+  // Update Song Title and Artist UI elements
+  function updateMetadata(rawString, stationFallback) {
+    if (!rawString) {
+      songTitleEl.textContent = stationFallback;
+      artistNameEl.textContent = 'Live Broadcast';
+      return;
+    }
+
+    // Split "Artist - Song Title" standard stream formats
+    if (rawString.includes(' - ')) {
+      const parts = rawString.split(' - ');
+      artistNameEl.textContent = parts[0].trim();
+      songTitleEl.textContent = parts.slice(1).join(' - ').trim();
+    } else {
+      songTitleEl.textContent = rawString;
+      artistNameEl.textContent = stationFallback || 'Live Broadcast';
+    }
+  }
+
+  // Attempt to fetch Icecast status.json / 7.html / stats.json metadata
+  async function fetchStreamMetadata(streamUrl, stationTitle) {
+    try {
+      const urlObj = new URL(streamUrl);
+      const jsonStatusUrl = `${urlObj.origin}/status-json.xsl`;
+
+      const response = await fetch(jsonStatusUrl);
+      if (response.ok) {
+        const data = await response.json();
+        const source = Array.isArray(data.icestats.source) ? data.icestats.source[0] : data.icestats.source;
+        if (source && source.title) {
+          updateMetadata(source.title, stationTitle);
+        }
+      }
+    } catch (e) {
+      // Endpoint non-existent or blocked; keep default fallback
+    }
   }
 
   selectEl.addEventListener('change', (e) => {
@@ -208,30 +250,45 @@
       hlsInstance.destroy();
       hlsInstance = null;
     }
+    if (metaInterval) {
+      clearInterval(metaInterval);
+      metaInterval = null;
+    }
 
     if (selectedIndex === '') {
       player.stop();
-      stationNameEl.textContent = 'Select Station';
-      trackStatusEl.textContent = 'Offline';
+      songTitleEl.textContent = 'Select Station';
+      artistNameEl.textContent = '---';
       logoEl.src = fallbackLogo;
       return;
     }
 
     const station = stationsList[selectedIndex];
     
-    stationNameEl.textContent = station.title;
-    trackStatusEl.textContent = 'Live Broadcast';
+    // Default initial UI display
+    songTitleEl.textContent = station.title;
+    artistNameEl.textContent = 'Live Broadcast';
     logoEl.src = station.logo || fallbackLogo;
     logoEl.onerror = () => { logoEl.src = fallbackLogo; };
 
     const streamUrl = station.url;
     const mimeType = getMimeType(streamUrl);
 
+    // Play Stream via HLS.js or Native Plyr
     if (mimeType === 'application/x-mpegURL') {
       if (Hls.isSupported()) {
         hlsInstance = new Hls();
         hlsInstance.loadSource(streamUrl);
         hlsInstance.attachMedia(audioElement);
+        
+        // Listen for ID3/HLS embedded metadata tags
+        hlsInstance.on(Hls.Events.FRAG_PARSING_METADATA, (event, data) => {
+          if (data.samples && data.samples.length > 0) {
+            const rawData = String.fromCharCode.apply(null, data.samples[0].data);
+            updateMetadata(rawData, station.title);
+          }
+        });
+
         hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => player.play());
       } else if (audioElement.canPlayType('application/vnd.apple.mpegurl')) {
         player.source = { type: 'audio', sources: [{ src: streamUrl, type: 'application/x-mpegURL' }] };
@@ -240,6 +297,10 @@
     } else {
       player.source = { type: 'audio', sources: [{ src: streamUrl, type: mimeType }] };
       player.play();
+
+      // Poll Icecast/Shoutcast metadata every 10 seconds
+      fetchStreamMetadata(streamUrl, station.title);
+      metaInterval = setInterval(() => fetchStreamMetadata(streamUrl, station.title), 10000);
     }
   });
 
