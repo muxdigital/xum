@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plyr Web Radio with Station Logo</title>
+
+  <!-- Plyr CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #121212;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .player-card {
+      background: #1e1e1e;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #2a2a2a;
+      color: #fff;
+      font-size: 1rem;
+    }
+    .plyr {
+      border-radius: 8px;
+    }
+    
+    /* Station Info Box & Logo Styling */
+    .station-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: #282828;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .station-logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      object-fit: cover;
+      background-color: #333;
+      flex-shrink: 0;
+    }
+    .station-details {
+      overflow: hidden;
+    }
+    .station-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .track-title {
+      font-size: 0.9rem;
+      color: #00f2fe;
+      margin-top: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .track-artist {
+      font-size: 0.8rem;
+      color: #aaa;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    #status {
+      margin-top: 15px;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<div class="player-card">
+  <!-- Station Banner -->
+  <div class="station-info">
+    <img id="stationLogo" class="station-logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>" alt="Station Logo" />
+    <div class="station-details">
+      <div id="stationName" class="station-name">Select Station</div>
+      <div id="songTitle" class="track-title">---</div>
+      <div id="artistName" class="track-artist">---</div>
+    </div>
+  </div>
+  
+  <select id="stationSelect" disabled>
+    <option>Loading stations...</option>
+  </select>
+
+  <!-- Audio Element -->
+  <audio id="player" controls></audio>
+  
+  <div id="status">Fetching M3U playlist...</div>
+</div>
+
+<!-- Hls.js & Plyr CDN -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+<script>
+  const m3uUrl = 'https://example.com/playlist.m3u';
+  const useCorsProxy = false; 
+  const fetchUrl = useCorsProxy ? `https://api.allorigins.win/raw?url=${encodeURIComponent(m3uUrl)}` : m3uUrl;
+
+  // SVG Fallback Icon when station logo is missing or fails to load
+  const fallbackLogo = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>";
+
+  const selectEl = document.getElementById('stationSelect');
+  const audioElement = document.getElementById('player');
+  const statusEl = document.getElementById('status');
+  
+  const logoEl = document.getElementById('stationLogo');
+  const stationNameEl = document.getElementById('stationName');
+  const songTitleEl = document.getElementById('songTitle');
+  const artistNameEl = document.getElementById('artistName');
+  
+  let stationsList = [];
+  let hlsInstance = null;
+
+  const player = new Plyr(audioElement, {
+    controls: ['play', 'progress', 'current-time', 'mute', 'volume'],
+    tooltips: { controls: true, seek: false }
+  });
+
+  async function loadPlaylist() {
+    try {
+      const response = await fetch(fetchUrl);
+      if (!response.ok) throw new Error('Failed to load playlist');
+      const text = await response.text();
+      
+      stationsList = parseM3U(text);
+      populateSelect(stationsList);
+    } catch (err) {
+      statusEl.textContent = 'Error loading M3U file. (Check CORS settings)';
+    }
+  }
+
+  // Parse M3U line by line to extract tvg-logo, station title, and stream URL
+  function parseM3U(content) {
+    const lines = content.split(/\r?\n/);
+    const stations = [];
+    let currentTitle = '';
+    let currentLogo = '';
+
+    for (let line of lines) {
+      line = line.trim();
+      if (line.startsWith('#EXTINF:')) {
+        // Extract tvg-logo value using Regex
+        const logoMatch = line.match(/tvg-logo="([^"]+)"/i);
+        currentLogo = logoMatch ? logoMatch[1] : '';
+
+        // Extract title after comma
+        const commaIdx = line.indexOf(',');
+        currentTitle = commaIdx !== -1 ? line.substring(commaIdx + 1) : 'Unknown Station';
+      } else if (line && !line.startsWith('#')) {
+        stations.push({
+          title: currentTitle || line,
+          logo: currentLogo,
+          url: line
+        });
+        currentTitle = '';
+        currentLogo = '';
+      }
+    }
+    return stations;
+  }
+
+  function populateSelect(stations) {
+    if (stations.length === 0) {
+      statusEl.textContent = 'No stations found in playlist.';
+      return;
+    }
+
+    selectEl.innerHTML = '<option value="">-- Select a Station --</option>';
+    stations.forEach((station, index) => {
+      const option = document.createElement('option');
+      option.value = index; // Store array index for quick retrieval
+      option.textContent = station.title;
+      selectEl.appendChild(option);
+    });
+
+    selectEl.disabled = false;
+    statusEl.textContent = `Loaded ${stations.length} stations.`;
+  }
+
+  function getMimeType(url) {
+    const cleanUrl = url.split('?')[0].toLowerCase();
+    if (cleanUrl.endsWith('.m3u8')) return 'application/x-mpegURL';
+    if (cleanUrl.endsWith('.aac') || cleanUrl.endsWith('.aacp')) return 'audio/aac';
+    return 'audio/mp3';
+  }
+
+  // Handle station selection
+  selectEl.addEventListener('change', (e) => {
+    const selectedIndex = e.target.value;
+
+    if (hlsInstance) {
+      hlsInstance.destroy();
+      hlsInstance = null;
+    }
+
+    if (selectedIndex === '') {
+      player.stop();
+      stationNameEl.textContent = 'Select Station';
+      songTitleEl.textContent = '---';
+      artistNameEl.textContent = '---';
+      logoEl.src = fallbackLogo;
+      return;
+    }
+
+    const station = stationsList[selectedIndex];
+    
+    // Update Station Details UI
+    stationNameEl.textContent = station.title;
+    songTitleEl.textContent = 'Live Stream';
+    artistNameEl.textContent = '';
+    logoEl.src = station.logo || fallbackLogo;
+
+    // Handle broken logo links
+    logoEl.onerror = () => { logoEl.src = fallbackLogo; };
+
+    const streamUrl = station.url;
+    const mimeType = getMimeType(streamUrl);
+
+    // Play Stream via HLS.js or Native Plyr
+    if (mimeType === 'application/x-mpegURL') {
+      if (Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(streamUrl);
+        hlsInstance.attachMedia(audioElement);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => player.play());
+      } else if (audioElement.canPlayType('application/vnd.apple.mpegurl')) {
+        player.source = { type: 'audio', sources: [{ src: streamUrl, type: 'application/x-mpegURL' }] };
+        player.play();
+      }
+    } else {
+      player.source = { type: 'audio', sources: [{ src: streamUrl, type: mimeType }] };
+      player.play();
+    }
+  });
+
+  loadPlaylist();
+</script>
+
+</body>
+</html>
