@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plyr Web Radio (Internal M3U)</title>
+
+  <!-- Plyr CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #121212;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .player-card {
+      background: #1e1e1e;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #2a2a2a;
+      color: #fff;
+      font-size: 1rem;
+    }
+    .plyr {
+      border-radius: 8px;
+    }
+    
+    /* Station Info Box & Logo Styling */
+    .station-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: #282828;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .station-logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      object-fit: cover;
+      background-color: #333;
+      flex-shrink: 0;
+    }
+    .station-details {
+      overflow: hidden;
+    }
+    .station-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .track-status {
+      font-size: 0.85rem;
+      color: #00f2fe;
+      margin-top: 3px;
+    }
+    
+    #status {
+      margin-top: 15px;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<div class="player-card">
+  <!-- Station Banner -->
+  <div class="station-info">
+    <img id="stationLogo" class="station-logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>" alt="Station Logo" />
+    <div class="station-details">
+      <div id="stationName" class="station-name">Select Station</div>
+      <div id="trackStatus" class="track-status">Offline</div>
+    </div>
+  </div>
+  
+  <select id="stationSelect" disabled>
+    <option>Loading stations...</option>
+  </select>
+
+  <!-- Audio Element -->
+  <audio id="player" controls></audio>
+  
+  <div id="status">Loading playlist...</div>
+</div>
+
+<!-- Hls.js & Plyr CDN -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+<script>
+  // Path to your local M3U file relative to this HTML file
+  const localM3uPath = './playlist.m3u';
+
+  // SVG Fallback Logo
+  const fallbackLogo = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>";
+
+  const selectEl = document.getElementById('stationSelect');
+  const audioElement = document.getElementById('player');
+  const statusEl = document.getElementById('status');
+  
+  const logoEl = document.getElementById('stationLogo');
+  const stationNameEl = document.getElementById('stationName');
+  const trackStatusEl = document.getElementById('trackStatus');
+  
+  let stationsList = [];
+  let hlsInstance = null;
+
+  const player = new Plyr(audioElement, {
+    controls: ['play', 'progress', 'current-time', 'mute', 'volume'],
+    tooltips: { controls: true, seek: false }
+  });
+
+  // Direct fetch without CORS proxy
+  async function loadPlaylist() {
+    try {
+      const response = await fetch(localM3uPath);
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      const text = await response.text();
+      
+      stationsList = parseM3U(text);
+      populateSelect(stationsList);
+    } catch (err) {
+      statusEl.textContent = 'Error: Make sure playlist.m3u exists in the same folder.';
+      console.error(err);
+    }
+  }
+
+  function parseM3U(content) {
+    const lines = content.split(/\r?\n/);
+    const stations = [];
+    let currentTitle = '';
+    let currentLogo = '';
+
+    for (let line of lines) {
+      line = line.trim();
+      if (line.startsWith('#EXTINF:')) {
+        const logoMatch = line.match(/tvg-logo="([^"]+)"/i);
+        currentLogo = logoMatch ? logoMatch[1] : '';
+
+        const commaIdx = line.indexOf(',');
+        currentTitle = commaIdx !== -1 ? line.substring(commaIdx + 1) : 'Unknown Station';
+      } else if (line && !line.startsWith('#')) {
+        stations.push({
+          title: currentTitle || line,
+          logo: currentLogo,
+          url: line
+        });
+        currentTitle = '';
+        currentLogo = '';
+      }
+    }
+    return stations;
+  }
+
+  function populateSelect(stations) {
+    if (stations.length === 0) {
+      statusEl.textContent = 'No stations found in local playlist.';
+      return;
+    }
+
+    selectEl.innerHTML = '<option value="">-- Select a Station --</option>';
+    stations.forEach((station, index) => {
+      const option = document.createElement('option');
+      option.value = index;
+      option.textContent = station.title;
+      selectEl.appendChild(option);
+    });
+
+    selectEl.disabled = false;
+    statusEl.textContent = `Loaded ${stations.length} local stations.`;
+  }
+
+  function getMimeType(url) {
+    const cleanUrl = url.split('?')[0].toLowerCase();
+    if (cleanUrl.endsWith('.m3u8')) return 'application/x-mpegURL';
+    if (cleanUrl.endsWith('.aac') || cleanUrl.endsWith('.aacp')) return 'audio/aacp';
+    return 'audio/mp3';
+  }
+
+  selectEl.addEventListener('change', (e) => {
+    const selectedIndex = e.target.value;
+
+    if (hlsInstance) {
+      hlsInstance.destroy();
+      hlsInstance = null;
+    }
+
+    if (selectedIndex === '') {
+      player.stop();
+      stationNameEl.textContent = 'Select Station';
+      trackStatusEl.textContent = 'Offline';
+      logoEl.src = fallbackLogo;
+      return;
+    }
+
+    const station = stationsList[selectedIndex];
+    
+    stationNameEl.textContent = station.title;
+    trackStatusEl.textContent = 'Live Broadcast';
+    logoEl.src = station.logo || fallbackLogo;
+    logoEl.onerror = () => { logoEl.src = fallbackLogo; };
+
+    const streamUrl = station.url;
+    const mimeType = getMimeType(streamUrl);
+
+    if (mimeType === 'application/x-mpegURL') {
+      if (Hls.isSupported()) {
+        hlsInstance = new Hls();
+        hlsInstance.loadSource(streamUrl);
+        hlsInstance.attachMedia(audioElement);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => player.play());
+      } else if (audioElement.canPlayType('application/vnd.apple.mpegurl')) {
+        player.source = { type: 'audio', sources: [{ src: streamUrl, type: 'application/x-mpegURL' }] };
+        player.play();
+      }
+    } else {
+      player.source = { type: 'audio', sources: [{ src: streamUrl, type: mimeType }] };
+      player.play();
+    }
+  });
+
+  loadPlaylist();
+</script>
+
+</body>
+</html>
