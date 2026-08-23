@@ -124,7 +124,7 @@
 
 <script>
   const m3uUrl = 'https://github.com/muxdigital/xum/raw/feed/audio/raux.m3u';
-  const useCorsProxy = false; 
+  const useCorsProxy = true; 
   const fetchUrl = useCorsProxy ? `https://api.allorigins.win/raw?url=${encodeURIComponent(m3uUrl)}` : m3uUrl;
 
   // SVG Fallback Icon when station logo is missing or fails to load
