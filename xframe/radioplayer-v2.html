@@ -65,10 +65,18 @@
       overflow: hidden;
       width: 100%;
     }
+    .station-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
     .song-title {
       font-size: 1.05rem;
       font-weight: bold;
-      color: #fff;
+      color: #aaa;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -96,8 +104,9 @@
   <div class="station-info">
     <img id="stationLogo" class="station-logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='%23666'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>" alt="Station Logo" />
     <div class="station-details">
-      <div id="songTitle" class="song-title">Select Station</div>
-      <div id="artistName" class="artist-name">---</div>
+      <div id="stationName" class="station-name">Select Station</div>
+      <div id="songTitle" class="track-title">---</div>
+      <div id="artistName" class="track-artist">---</div>
     </div>
   </div>
   
@@ -127,6 +136,7 @@
   const statusEl = document.getElementById('status');
   
   const logoEl = document.getElementById('stationLogo');
+  const stationNameEl = document.getElementById('stationName');
   const songTitleEl = document.getElementById('songTitle');
   const artistNameEl = document.getElementById('artistName');
   
@@ -208,6 +218,7 @@
   // Update Song Title and Artist UI elements
   function updateMetadata(rawString, stationFallback) {
     if (!rawString) {
+      stationNameEl.textContent = 'Select Station';
       songTitleEl.textContent = stationFallback;
       artistNameEl.textContent = 'Live Broadcast';
       return;
