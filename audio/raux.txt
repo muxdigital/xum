@@ -86,7 +86,7 @@ https://rauxnetcdn.nou-ikast.workers.dev/RAUX_ROCKXP
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-plus-social0.png" group-title="RAUX Channels" radio="true",RAUX - Plus FM
 https://rauxnetcdn.nou-ikast.workers.dev/RAUX_PLUSFM
 
-#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/muxnews-social3.png" group-title="RAUX Channels" radio="true",MUX NewsNet
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/muxnews-social3.png" group-title="RAUX Channels" radio="true",MUX News
 https://rauxnetcdn.nou-ikast.workers.dev/MUXNEWS-NETWORK
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mnx-social0.png" group-title="RAUX Channels" radio="true",MNX
