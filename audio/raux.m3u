@@ -582,7 +582,7 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/MORFM_S01AAC_4
 https://playerservices.streamtheworld.com/api/livestream-redirect/MYXFMAAC_48.aac
 
 #EXTINF:-1 tvg-logo="https://apk.radyoph.com/upload/1701223837_MyxPop.png" group-title="PH Radio" radio="true",MYX P-Pop Radio
-https://playerservices.streamtheworld.com/api/livestream-redirect/MYXPPOPAAC_48.aac
+https://playerservices.streamtheworld.com/api/livestream-redirect/MYXPPOPAAC.aac
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/17/DCG_FM_887.jpg/revision/latest/scale-to-width-down/300?cb=20210616113526" group-title="PH Radio" radio="true",DCG FM
 https://s5.myradiostream.com/43098/listen.mp3
