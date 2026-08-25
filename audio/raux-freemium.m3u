@@ -330,7 +330,7 @@ https://amp.radyonatinfm.com/listen/dxtc/cotabato
 https://radio.tv5.com.ph/truefm/audio.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/DWRX_Monster_RX_93.1.png/revision/latest/scale-to-width-down/200?cb=20210616080740" group-title="PH Radio" radio="true",Monster RX93.1
-https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/monsterrx
+https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/monsterrrx
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Monster_bt_1059.png/revision/latest/scale-to-width-down/300?cb=20210616081102" group-title="PH Radio" radio="true",Monster BT105.9 Cebu
 https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/rxcebu
