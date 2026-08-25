@@ -644,7 +644,7 @@ https://www.liveradio.es/http://us1.amfmph.com:8785/stream
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR SkyRadio DavSur
 https://www.liveradio.es/http://us1.amfmph.com:8819/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Radyo Partido (Goa, Camsur)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Radyo Partido (Goa Camsur)
 https://www.liveradio.es/http://de3.amfmph.com:8596/stream
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/KpuSYDTjyY.jpg" group-title="PH Radio" radio="true",RMN DYHP Cebu
@@ -1009,6 +1009,9 @@ https://stream.revma.ihrhls.com/zc6043
 
 #EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-247sports.png" group-title="US Radio" radio="true",24/7 Sports | iHeart
 https://stream.revma.ihrhls.com/zc11340
+
+#EXTINF:-1 tvg-logo="https://nouxikast.serv00.net/audio/img/iheart-podcastchannel.png" group-title="US Radio" radio="true",iHeartPodcast Channel | iHeart
+https://stream.revma.ihrhls.com/zc9081
 
 #EXTINF:-1 tvg-logo="https://cdn.player.fm/images/18330340/series/fAP7lhwW5zBFy69n/256.jpg" group-title="US Radio" radio="true",Sean Hannity Show (Conservative Talk) | iHeart
 https://stream.revma.ihrhls.com/zc6706
