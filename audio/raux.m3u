@@ -327,13 +327,22 @@ https://amp.radyonatinfm.com/listen/dxtc/cotabato
 https://radio.tv5.com.ph/truefm/audio.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/DWRX_Monster_RX_93.1.png/revision/latest/scale-to-width-down/200?cb=20210616080740" group-title="PH Radio" radio="true",Monster RX93.1
-https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/monsterrrx
+https://in-icecast.eradioportal.com:8443/monsterrrx
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/DWRX_Monster_RX_93.1.png/revision/latest/scale-to-width-down/200?cb=20210616080740" group-title="PH Radio" radio="true",Monster RX93.1 (Opt-2)
+https://daph-tls.digitalradioph.workers.dev/MONSTER_RXFM
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Monster_bt_1059.png/revision/latest/scale-to-width-down/300?cb=20210616081102" group-title="PH Radio" radio="true",Monster BT105.9 Cebu
-https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/rxcebu
+https://in-icecast.eradioportal.com:8443/rxcebu
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/42/Monster_bt_1059.png/revision/latest/scale-to-width-down/300?cb=20210616081102" group-title="PH Radio" radio="true",Monster BT105.9 Cebu (Opt-2)
+https://daph-tls.digitalradioph.workers.dev/MONSTER_BTCEBU
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Monster_bt_995.png/revision/latest/scale-to-width-down/300?cb=20210616081547" group-title="PH Radio" radio="true",Monster BT99.5 Davao
-https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/monsterrx_davao_
+https://in-icecast.eradioportal.com:8443/monsterrx_davao_
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Monster_bt_995.png/revision/latest/scale-to-width-down/300?cb=20210616081547" group-title="PH Radio" radio="true",Monster BT99.5 Davao (Opt-2)
+https://daph-tls.digitalradioph.workers.dev/MONSTER_BTDAVAO
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mellow947.jpg/250px-Mellow947.jpg" group-title="PH Radio" radio="true",Mellow 94.7 BFM
 https://streamer.radio.co/sec36cd5f1/listen
@@ -507,10 +516,10 @@ https://ssl1.viastreaming.net:8390/;stream
 https://stream.zeno.fm/kc3cct89sxquv
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Radyo-veritas-846-dzrv-logo.jpeg/220px-Radyo-veritas-846-dzrv-logo.jpeg" group-title="PH Radio" radio="true",Veritas 846
-https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/radyo-veritas-846
+https://in-icecast.eradioportal.com:8443/radyo-veritas-846
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Dwxi1314.png/220px-Dwxi1314.png" group-title="PH Radio" radio="true",DWXI
-https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/dwxi-streaming
+https://in-icecast.eradioportal.com:8443/dwxi-streaming
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/e/ea/Radyo_Bandera_Network_Logo.png/revision/latest/scale-to-width-down/250?cb=20200927011432" group-title="PH Radio" radio="true",Radyo Bandera
 https://de3.amfmph.com:8546/high
@@ -723,7 +732,10 @@ https://www.worldsradio.com/api/stream?url=http://111.125.87.226:8000/streamfm
 https://www.worldsradio.com/api/stream?url=http://111.125.87.226:8000/streamam
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/c/c8/106.7_Energy_FM_Logo_2014.png" group-title="PH Radio" radio="true",106.7 Energy FM
-https://www.worldsradio.com/api/stream?url=http://in-icecast.eradioportal.com:8000/energyfm_manila
+https://in-icecast.eradioportal.com:8443/energyfm_manila
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/c/c8/106.7_Energy_FM_Logo_2014.png" group-title="PH Radio" radio="true",106.7 Energy FM (Opt-2)
+https://daph-tls.digitalradioph.workers.dev/ENERGYFM_MANILA
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/DWIZ_Logo_2002.jpg/220px-DWIZ_Logo_2002.jpg" group-title="PH Radio" radio="true",DWIZ
 https://dwizmanila.radioca.st/stream
