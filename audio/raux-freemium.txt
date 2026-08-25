@@ -167,46 +167,46 @@ https://azura.yesfm.com.ph/listen/yes_fm_manila/radio.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/13/New_modernized_logo_of_96.3_Easy_Rock_-_Vectorized_via_InkScape.svg/250px-New_modernized_logo_of_96.3_Easy_Rock_-_Vectorized_via_InkScape.svg.png" group-title="PH Radio" radio="true",Easy Rock
 https://azura.easyrock.com.ph/listen/easy_rock_manila/radio.mp3
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/rn.png" group-title="PH Radio" radio="true",Radyo Natin
 https://stream.rcast.net/72040
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin Visayas
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/rn.png" group-title="PH Radio" radio="true",Radyo Natin Visayas
 https://visayas.radyonatinfm.com:8000/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Radyo_Natin_early-2022_Logo.png/130px-Radyo_Natin_early-2022_Logo.png" group-title="PH Radio" radio="true",Radyo Natin Mindanao
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/rn.png" group-title="PH Radio" radio="true",Radyo Natin Mindanao
 https://mindanao.radyonatinfm.com:8000/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/DZRH_News_FM_94.3_logo.jpg/150px-DZRH_News_FM_94.3_logo.jpg" group-title="PH Radio" radio="true",DZRH News FM Gensan
 https://a4.asurahosting.com:8430/radio.mp3
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Laoag
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Laoag
 https://arlaoag.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo La Union
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo La Union
 https://arlaunion.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Pangasinan
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Pangasinan
 https://arpangasinan.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Cebu
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Cebu
 https://arcebu.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Iloilo
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Iloilo
 https://ariloilo.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Bacolod
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Bacolod
 https://arbacolod.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Tacloban
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Tacloban
 https://artacloban.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Catarman
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Catarman
 https://arcatarman.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Catbalogan
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Catbalogan
 https://arcatbalogan.radioca.st/stream
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4VCzbmT/Aksyon-Radyo-trans-logo.png" group-title="PH Radio" radio="true",Aksyon Radyo Davao
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/aksyon-radyo.png" group-title="PH Radio" radio="true",Aksyon Radyo Davao
 https://ardavao.radioca.st/stream
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/phl/loveradio-ph.png" group-title="PH Radio" radio="true",Love Radio Dagupan
@@ -605,31 +605,31 @@ https://s6.reliastream.com/proxy/jolocs08?mp=/;
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JBjT3zW/ok-fm-sorsogon-logo.png" group-title="PH Radio" radio="true",OKFM Sorsogon
 https://s3.reliastream.com/proxy/jolocs03?mp=/;
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/FMRadio_Manila.png/200px-FMRadio_Manila.png" group-title="PH Radio" radio="true",FMR Manila
+#EXTINF:-1 tvg-logo="https://apk.radyoph.com/upload/1783987444_fmrmanila2026.png" group-title="PH Radio" radio="true",FMR Manila
 https://us1.amfmph.com/ssl/fmrmanila?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/FMRadio_Manila.png/200px-FMRadio_Manila.png" group-title="PH Radio" radio="true",FMR Manila (Opt-2)
+#EXTINF:-1 tvg-logo="https://apk.radyoph.com/upload/1783987444_fmrmanila2026.png" group-title="PH Radio" radio="true",FMR Manila (Opt-2)
 https://www.worldsradio.com/api/stream?url=http://us1.amfmph.com:8872/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Tacloban
+#EXTINF:-1 tvg-logo="https://apk.radyoph.com/upload/1784098352_fmrtacloban2026.png" group-title="PH Radio" radio="true",FMR Tacloban
 https://de3.amfmph.com/ssl/fmrtacloban?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Tacloban (Opt-2)
+#EXTINF:-1 tvg-logo="https://apk.radyoph.com/upload/1784098352_fmrtacloban2026.png" group-title="PH Radio" radio="true",FMR Tacloban (Opt-2)
 https://www.worldsradio.com/api/stream?url=http://de3.amfmph.com:8676/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Baguio
 #https://www.worldsradio.com/api/stream?url=http://de3.amfmph.com:8715/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FMRadio_Cebu.png/220px-FMRadio_Cebu.png" group-title="PH Radio" radio="true",FMR Cebu
+#EXTINF:-1 tvg-logo="https://apk.radyoph.com/upload/1784101873_fmrcebu2026-.png" group-title="PH Radio" radio="true",FMR Cebu
 https://us1.amfmph.com/ssl/fmrcebu?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/FMRadio_Cebu.png/220px-FMRadio_Cebu.png" group-title="PH Radio" radio="true",FMR Cebu (Opt-2)
+#EXTINF:-1 tvg-logo="https://apk.radyoph.com/upload/1784101873_fmrcebu2026-.png" group-title="PH Radio" radio="true",FMR Cebu (Opt-2)
 https://www.worldsradio.com/api/stream?url=http://us1.amfmph.com:8855/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Davao
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/64/746156186_1341065418188453_2222028580549589881_n-1.jpg/revision/latest/scale-to-width-down/250?cb=20260713042851" group-title="PH Radio" radio="true",FMR Davao
 https://us2.amfmph.com/ssl/fmrtagum?mp=/stream
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Davao (Opt-2)
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/64/746156186_1341065418188453_2222028580549589881_n-1.jpg/revision/latest/scale-to-width-down/250?cb=20260713042851" group-title="PH Radio" radio="true",FMR Davao (Opt-2)
 https://www.worldsradio.com/api/stream?url=http://us2.amfmph.com:9226/stream
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FMRadio_Philippines.png/200px-FMRadio_Philippines.png" group-title="PH Radio" radio="true",FMR Camiguin
