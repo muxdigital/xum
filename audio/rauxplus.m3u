@@ -926,6 +926,9 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/BLZE_1AAC.aac
 #EXTINF:-1 tvg-logo="https://cdn.player.fm/images/20701083/series/UmqNnOV6ROJlIA6B/256.jpg" group-title="US Radio" radio="true",Mark Levin Show (Conservative Talk)
 https://playerservices.streamtheworld.com/api/livestream-redirect/MARK_LEVINAAC.aac
 
+#EXTINF:-1 tvg-logo="https://cdn.player.fm/images/20701083/series/UmqNnOV6ROJlIA6B/256.jpg" group-title="US Radio" radio="true",Mark Levin Show (Conservative Talk) (Opt-2)
+https://us-radio.onrender.com/MARK_LEVINAAC
+
 #EXTINF:-1 tvg-logo="https://www.westwoodone.com/wp-content/uploads/2022/04/The_Vince_Show-3000x3000-1-400x400.jpg" group-title="US Radio" radio="true",The Vince Show (Conservative Talk)
 https://playerservices.streamtheworld.com/api/livestream-redirect/VINCEAAC.aac
 
