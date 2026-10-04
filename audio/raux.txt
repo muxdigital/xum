@@ -3,112 +3,112 @@
 #https://archive.org/download/offline-videos/Music-Interlude-Break-RAUx.mp3
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-juanfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - JUAN FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_JUANFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_JUANFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-2dayfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - 2DAY FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_2DAYFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_2DAYFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-hotfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Hot FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_HOTFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_HOTFM
 
-#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/4ufm-social0.png" group-title="RAUX Channels" radio="true",RAUX - 4UFM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_4UFM
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/kbayanradio-social0.png" group-title="RAUX Channels" radio="true",RAUX - KBayan Radio
+https://icdn.rauxnet.serv00.net:8910/RAUX_4UFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-jeepfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - JEEP FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_JEEPFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_JEEPFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-koolfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Kool FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_KOOLFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_KOOLFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-baifm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Bai FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_BAIFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_BAIFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-lyte-social0.png" group-title="RAUX Channels" radio="true",RAUX - Lyte FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_LYTEFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_LYTEFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-lytetunes-social0.png" group-title="RAUX Channels" radio="true",RAUX - Lyte Tunes
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_LYTETUNES
+https://icdn.rauxnet.serv00.net:8910/RAUX_LYTETUNES
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-htz-social0.png" group-title="RAUX Channels" radio="true",RAUX - HTZ FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_HTZFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_HTZFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/noufm-social0.png" group-title="RAUX Channels" radio="true",RAUX - NOU FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_NOUFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_NOUFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-kiix-social0.png" group-title="RAUX Channels" radio="true",RAUX - KIIX FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_KIIXFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_KIIXFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-mixx-social0.png" group-title="RAUX Channels" radio="true",RAUX - MIXX FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_MIXXFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_MIXXFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/muxten-social0.png" group-title="RAUX Channels" radio="true",RAUX - Ten FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_TENFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_TENFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-gold-social0.png" group-title="RAUX Channels" radio="true",RAUX - Gold FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_GOLDFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_GOLDFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-club-social0.png" group-title="RAUX Channels" radio="true",RAUX - Club FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_CLUBFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_CLUBFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-pwr-social0.png" group-title="RAUX Channels" radio="true",RAUX - PWR
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_PWR
+https://icdn.rauxnet.serv00.net:8910/RAUX_PWR
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-dbeat-social0.png" group-title="RAUX Channels" radio="true",RAUX - The Beat
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_THEBEAT
+https://icdn.rauxnet.serv00.net:8910/RAUX_THEBEAT
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-alt-social0.png" group-title="RAUX Channels" radio="true",RAUX - ALT
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_ALT
+https://icdn.rauxnet.serv00.net:8910/RAUX_ALT
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-loop-social0.png" group-title="RAUX Channels" radio="true",RAUX - Loop FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_LOOPFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_LOOPFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-ezfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - EZFM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_EZFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_EZFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-dsound-social0.png" group-title="RAUX Channels" radio="true",RAUX - The Sound
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_SOUND
+https://icdn.rauxnet.serv00.net:8910/RAUX_SOUND
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-indx-social0.png" group-title="RAUX Channels" radio="true",RAUX - iNDX
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_INDX
+https://icdn.rauxnet.serv00.net:8910/RAUX_INDX
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-rnbr-social0.png" group-title="RAUX Channels" radio="true",RAUX - Rhythm and Beats
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_RHYTHMNBEATS
+https://icdn.rauxnet.serv00.net:8910/RAUX_RHYTHMNBEATS
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-soulfm-social0.png" group-title="RAUX Channels" radio="true",RAUX - Soul FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_SOULFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_SOULFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-altx-social0.png" group-title="RAUX Channels" radio="true",RAUX - ALTx
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_ALTX
+https://icdn.rauxnet.serv00.net:8910/RAUX_ALTX
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-rockxp-social0.png" group-title="RAUX Channels" radio="true",RAUX - RockXP
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_ROCKXP
+https://icdn.rauxnet.serv00.net:8910/RAUX_ROCKXP
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/raux-originals/raudio-plus-social0.png" group-title="RAUX Channels" radio="true",RAUX - Plus FM
-https://rauxnetcdn.nou-ikast.workers.dev/RAUX_PLUSFM
+https://icdn.rauxnet.serv00.net:8910/RAUX_PLUSFM
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/muxnews-social3.png" group-title="RAUX Channels" radio="true",MUX News
-https://rauxnetcdn.nou-ikast.workers.dev/MUXNEWS-NETWORK
+https://icdn.amptvradio.serv00.net:8870/MUXNEWS-NETWORK
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mnx-social0.png" group-title="RAUX Channels" radio="true",MNX
-https://rauxnetcdn.nou-ikast.workers.dev/MNX-NETWORK
+https://icdn.amptvradio.serv00.net:8870/MNX-NETWORK
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/24sn-social0.png" group-title="RAUX Channels" radio="true",24SN
-https://rauxnetcdn.nou-ikast.workers.dev/24SN-NETWORK
+https://icdn.amptvradio.serv00.net:8870/24SN-NETWORK
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/muxnews/mux-bznet-social0.png" group-title="RAUX Channels" radio="true",MUX BZNet
-https://stream.zeno.fm/xuz0q702cy8uv
+https://icdn.amptvradio.serv00.net:8870/MUXNEWS-BZNET
 
-#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/muxjuan-social0.png" group-title="RAUX Channels" radio="true",MUX NewsJuan
-https://rauxnetcdn.nou-ikast.workers.dev/MUX-NEWSJUAN
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/mux-newsjuan-social0.png" group-title="RAUX Channels" radio="true",MUX NewsJuan
+https://icdn.amptvradio.serv00.net:8870/MUX-NEWSJUAN
 
-#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/muxdos-social0.png" group-title="RAUX Channels" radio="true",MUX NewsDos
-https://rauxnetcdn.nou-ikast.workers.dev/MUX-NEWSDOS
+#EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/mux-newsdos-social0.png" group-title="RAUX Channels" radio="true",MUX NewsDos
+https://icdn.amptvradio.serv00.net:8870/MUX-NEWSDOS
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/mux-citra-social0.png" group-title="RAUX Channels" radio="true",MUX Citra
-https://rauxnetcdn.nou-ikast.workers.dev/MUX-NEWSBULETIN
+https://icdn.amptvradio.serv00.net:8870/MUX-NEWSBULETIN
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/mux/muxsports-social0.png" group-title="RAUX Channels" radio="true",MUX Sports
-https://muxaudionetcdn.nou-ikast.workers.dev/MUXSPORTS-NETWORK
+https://icdn.amptvradio.serv00.net:8870/MUXSPORTS-NETWORK
 
 #EXTINF:-1 tvg-logo="https://github.com/muxdigital/xum/raw/feed/img/freemium-choice/raux-social1.png" group-title="RAUX Channels" radio="true",RAUX Live
 https://stream.zeno.fm/yg6051tskm0uv
