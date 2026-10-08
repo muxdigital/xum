@@ -134,14 +134,14 @@ https://stream.zeno.fm/pkbwgm92f78uv
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/216/dwtm-magic-899-fm.dd9f5d41.png" group-title="PH Radio" radio="true",Magic 89.9
 https://stream.zeno.fm/sh37pvfd938uv
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3
-https://www.worldsradio.com/api/stream?url=http://sg-icecast.eradioportal.com:8000/jam883
+#EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/216/dwtm-magic-899-fm.dd9f5d41.png" group-title="PH Radio" radio="true",Magic 89.9 (AAC)
+https://daphtls.serv00.net:8990/MAGIC899
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3 (Opt-2)
-https://www.worldsradio.com/api/stream?url=http://ph-icecast.eradioportal.com:8000/jam883
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/250px-Jam883.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="PH Radio" radio="true",Jam 88.3
+https://daphtls.serv00.net:8990/JAM883
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/220px-Jam883.png" group-title="PH Radio" radio="true",Jam 88.3 (Opt-3)
-https://richwel.serv00.net/twitcher.php?channel=Jam883WeRockRadio&quality=audio_only
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jam883.png/250px-Jam883.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="PH Radio" radio="true",Jam 88.3 (AAC)
+https://daph-tls.digitalradioph.workers.dev/JAM883
 
 #EXTINF:-1 tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/983/awr-manila-891.ab9269f0.png" group-title="PH Radio" radio="true",AWR Manila 89.1
 https://www.worldsradio.com/api/stream?url=http://192.53.113.120:8000/stream
